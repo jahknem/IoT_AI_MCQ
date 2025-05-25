@@ -1,2 +1,1 @@
 # IoT_AI_MCQ
-# IoT_AI_MCQ

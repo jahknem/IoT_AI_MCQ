@@ -1,1303 +1,1302 @@
 [
-    {
-      "id": 1,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "According to the course syllabus, which of the following is NOT listed as a primary course objective?",
-      "options": [
-        {"key": "a", "text": "IoT prototyping"},
-        {"key": "b", "text": "IoT Data communication buses"},
-        {"key": "c", "text": "Advanced AI algorithms for IoT data"},
-        {"key": "d", "text": "IoT power management"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 4 of `document.pdf` lists course objectives. While IoT involves data, \"Advanced AI algorithms\" is not explicitly listed as a primary objective compared to the others."
-    },
-    {
-      "id": 2,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "When was the term \"The Internet of Things\" first mentioned in an ITU Internet Report series?",
-      "options": [
-        {"key": "a", "text": "1990"},
-        {"key": "b", "text": "1997"},
-        {"key": "c", "text": "2005"},
-        {"key": "d", "text": "2008"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 6 of `document.pdf` states, \"1997, 'The Internet of Things' is the seventh in the series of ITU Internet Reports originally launched in 1997\"."
-    },
-    {
-      "id": 3,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "Which organization was founded at MIT in 1999 related to IoT development?",
-      "options": [
-        {"key": "a", "text": "EPC Global"},
-        {"key": "b", "text": "WSIS"},
-        {"key": "c", "text": "Auto-ID Center"},
-        {"key": "d", "text": "5G PPP"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 6 of `document.pdf` mentions, \"1999, Auto-ID Center founded in MIT\"."
-    },
-    {
-      "id": 4,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "The evolution of connectivity described as \"From any time, any place connectivity for anyone, we will now have connectivity for anything!\" primarily emphasizes the expansion towards:",
-      "options": [
-        {"key": "a", "text": "Human to Human (H2H) communication"},
-        {"key": "b", "text": "Human to Thing (H2T) communication"},
-        {"key": "c", "text": "Thing to Thing (T2T) communication"},
-        {"key": "d", "text": "Enhanced PC-based communication"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 7 of `document.pdf` shows the progression ending with \"Thing to Thing (T2T)\" under \"Any THING connection\"."
-    },
-    {
-      "id": 5,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "What are the two key characteristics defining a \"smart\" object in the context of IoT?",
-      "options": [
-        {"key": "a", "text": "Small and cheap"},
-        {"key": "b", "text": "Intelligent & connected"},
-        {"key": "c", "text": "Wireless & battery-powered"},
-        {"key": "d", "text": "Secure & fast"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 9 of `document.pdf` defines \"smart: intelligent & connected\"."
-    },
-    {
-      "id": 6,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "According to IoT Analytics (May 2022), which connectivity type was projected to have the highest CAGR from 2021-2025?",
-      "options": [
-        {"key": "a", "text": "LPWA"},
-        {"key": "b", "text": "Wireless Local Area Networks (WLAN)"},
-        {"key": "c", "text": "5G IoT"},
-        {"key": "d", "text": "Legacy Cellular (2G/3G/4G)"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 10 of `document.pdf`, the chart shows 5G IoT with a CAGR 21-25 of 159%."
-    },
-    {
-      "id": 7,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "In the Gartner Hype Cycle for Emerging Technologies presented, \"Smart Dust\" is shown near the:",
-      "options": [
-        {"key": "a", "text": "Peak of Inflated Expectations"},
-        {"key": "b", "text": "Trough of Disillusionment"},
-        {"key": "c", "text": "Slope of Enlightenment"},
-        {"key": "d", "text": "Innovation Trigger"}
-      ],
-      "correct_answer_letter": "d",
-      "explanation": "Page 11 of `document.pdf`, the smaller Gartner Hype Cycle image on the left shows \"Smart Dust\" at the \"Innovation Trigger\" phase."
-    },
-    {
-      "id": 8,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "Which layer in the IoT Reference Architecture is primarily responsible for MQTT/HTTP/XMPP/COAP transports?",
-      "options": [
-        {"key": "a", "text": "Devices Manager"},
-        {"key": "b", "text": "Aggregation / Bus Layer"},
-        {"key": "c", "text": "Communications"},
-        {"key": "d", "text": "Event Processing and Analytics"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 13 of `document.pdf`, under the IoT Reference Architecture, \"Communications\" lists \"MQTT/HTTP/XMPP/COAP, etc.\""
-    },
-    {
-      "id": 9,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "An Arduino with an Arduino Ethernet connection is an example of what type of device layer connection?",
-      "options": [
-        {"key": "a", "text": "Indirectly connected device"},
-        {"key": "b", "text": "Directly connected device"},
-        {"key": "c", "text": "Gateway connected device"},
-        {"key": "d", "text": "Cloud-emulated device"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 14 of `document.pdf` lists \"Arduino with Arduino Ethernet connection\" as an example of direct connections."
-    },
-    {
-      "id": 10,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "ZigBee devices connected via a ZigBee gateway are an example of:",
-      "options": [
-        {"key": "a", "text": "Directly connected devices"},
-        {"key": "b", "text": "Indirectly connected devices"},
-        {"key": "c", "text": "Non-IP devices"},
-        {"key": "d", "text": "Legacy network devices"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 14 of `document.pdf` lists \"ZigBee devices connected via a ZigBee gateway\" as an example of indirectly connected devices."
-    },
-    {
-      "id": 11,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "In the \"IoT, Digitize & connect\" model (CISCO, IBM, DELL), what is the primary role of the \"CLOUD\" layer?",
-      "options": [
-        {"key": "a", "text": "Real-time action and process control"},
-        {"key": "b", "text": "Data capture from sensors"},
-        {"key": "c", "text": "Data aggregation, big data analysis, and data fusion"},
-        {"key": "d", "text": "Local data organization and filtering at the edge"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 16 of `document.pdf` lists \"CLOUD: data aggregation, big data, data fusion, data correlation, data analysis, data treatment, data mining, data extraction\"."
-    },
-    {
-      "id": 12,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "In the Abstract Edge Architecture Model, which component is described as an \"embedded program that runs on or near the IoT device and reports the status of an asset or environment\"?",
-      "options": [
-        {"key": "a", "text": "Sensor"},
-        {"key": "b", "text": "Actuator"},
-        {"key": "c", "text": "Controller"},
-        {"key": "d", "text": "Agent"}
-      ],
-      "correct_answer_letter": "d",
-      "explanation": "Page 17 of `document.pdf` defines the \"Agent\" as \"an embedded program that runs on or near the IoT device and reports the status of an asset or environment.\""
-    },
-    {
-      "id": 13,
-      "section": "IoT Fundamentals & Architecture (Based on document.pdf)",
-      "question_text": "In the coffee machine edge architecture example with WiFi long-haul, what does MDB stand for in the context of the controller?",
-      "options": [
-        {"key": "a", "text": "Master Data Bus"},
-        {"key": "b", "text": "Multi-Drop Bus"},
-        {"key": "c", "text": "Machine Diagnostic Bus"},
-        {"key": "d", "text": "Micro-Device Bridge"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 18 of `document.pdf`, the coffee machine example notes \"Controller: MDB (multi-drop bus)\"."
-    },
-    {
-      "id": 14,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "What is the fundamental definition of a sensor provided in the slides?",
-      "options": [
-        {"key": "a", "text": "A device that only measures electrical quantities."},
-        {"key": "b", "text": "A device that transforms a physical quantity into a readable variable."},
-        {"key": "c", "text": "A device that amplifies signals from the environment."},
-        {"key": "d", "text": "A device that stores data from physical stimuli."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 23 of `document.pdf` states, \"A sensor transforms a physical quantity into a readable variable\"."
-    },
-    {
-      "id": 15,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "Which of the following is the French term for \"sensor\"?",
-      "options": [
-        {"key": "a", "text": "Détecteur"},
-        {"key": "b", "text": "Transducteur"},
-        {"key": "c", "text": "Capteur"},
-        {"key": "d", "text": "Actionneur"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 26 of `document.pdf` lists \"French: Capteur\"."
-    },
-    {
-      "id": 16,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "A transducer is defined as a device that:",
-      "options": [
-        {"key": "a", "text": "Only converts physical energy to electrical energy."},
-        {"key": "b", "text": "Transfers power from one system to another in the same or different form."},
-        {"key": "c", "text": "Measures only temperature and pressure."},
-        {"key": "d", "text": "Is always a passive component."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 26 of `document.pdf` defines \"Transducer: Transducer is a device that transfers power from one system to another in the same or in the different form\"."
-    },
-    {
-      "id": 17,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "Which of the following is NOT a primary criterion for sensor classification mentioned in the slides?",
-      "options": [
-        {"key": "a", "text": "Primary input quantity"},
-        {"key": "b", "text": "Transduction principles"},
-        {"key": "c", "text": "Cost and availability"},
-        {"key": "d", "text": "Material and production technology"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 28 of `document.pdf` lists the criteria as \"1. Primary input quantity... 2. Transduction principles 3. Material and production technology 4. Application\". Cost and availability are not listed as primary classification criteria."
-    },
-    {
-      "id": 18,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "An optical smoke sensor, which emits light and measures the scattered light, is an example of:",
-      "options": [
-        {"key": "a", "text": "A passive sensor"},
-        {"key": "b", "text": "An active sensor"},
-        {"key": "c", "text": "A chemical sensor"},
-        {"key": "d", "text": "A mechanical sensor"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 31 of `document.pdf` defines an active sensor as measuring \"the response of the environment to a stimulus provided by the sensor.\" An optical smoke sensor emits light (stimulus)."
-    },
-    {
-      "id": 19,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "A thermocouple, which generates a voltage based on temperature difference without an external power source for its sensing principle, is an example of:",
-      "options": [
-        {"key": "a", "text": "An active sensor"},
-        {"key": "b", "text": "A passive sensor"},
-        {"key": "c", "text": "A modulator type sensor"},
-        {"key": "d", "text": "A digital output sensor"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 31 of `document.pdf` defines a passive sensor as reacting \"on the surrounding environmental condition... The basic signal is generated without any own power, the energy is provided by the environment.\" A thermocouple fits this."
-    },
-    {
-      "id": 20,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "In the sensor classification tree, a sensor whose output energy is given by the input is categorized under \"Energy Contribution\" as a:",
-      "options": [
-        {"key": "a", "text": "Modulator"},
-        {"key": "b", "text": "Generator"},
-        {"key": "c", "text": "Deflection type"},
-        {"key": "d", "text": "Comparison type"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 32 of `document.pdf`, the classification tree shows under \"Energy Contribution,\" \"Generator: The output energy is given by the input.\""
-    },
-    {
-      "id": 21,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "According to ISO 5725, which term describes the closeness of test results to a reference or true value?",
-      "options": [
-        {"key": "a", "text": "Precision"},
-        {"key": "b", "text": "Repeatability"},
-        {"key": "c", "text": "Trueness (Accuracy)"},
-        {"key": "d", "text": "Resolution"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 33 of `document.pdf` states, \"ISO 5725 (1994) uses two terms 'trueness' and 'precision'... trueness indicates the closeness of the test results to a reference or true value. This is more commonly referred to as accuracy.\""
-    },
-    {
-      "id": 22,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "If a sensor provides readings that are very close to each other but consistently far from the true value, it has:",
-      "options": [
-        {"key": "a", "text": "High trueness, high precision"},
-        {"key": "b", "text": "High trueness, low precision"},
-        {"key": "c", "text": "Low trueness, high precision"},
-        {"key": "d", "text": "Low trueness, low precision"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 33 of `document.pdf`, the diagram illustrates this scenario. Readings are close together (high precision) but off-target (low trueness/accuracy)."
-    },
-    {
-      "id": 23,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "How can random error in sensor measurements typically be reduced?",
-      "options": [
-        {"key": "a", "text": "By frequent recalibration for systematic errors"},
-        {"key": "b", "text": "By making multiple measurements and averaging"},
-        {"key": "c", "text": "By increasing the sensor's resolution"},
-        {"key": "d", "text": "By changing the sensor's material"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 36 of `document.pdf` states for random error, \"make multiple measurements (precision is reduced by 1/sqrt(n))\". Page 37 also illustrates reducing random errors by extending the temporal measurement interval (averaging)."
-    },
-    {
-      "id": 24,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "What is \"Resolution\" in the context of a sensor?",
-      "options": [
-        {"key": "a", "text": "The time it takes for the sensor to respond."},
-        {"key": "b", "text": "The smallest increment in signal value the sensor can detect or output."},
-        {"key": "c", "text": "The maximum range of the physical quantity it can measure."},
-        {"key": "d", "text": "The accuracy of the sensor under varying temperature conditions."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 38 of `document.pdf` defines \"Resolution: Smallest increment in signal value.\""
-    },
-    {
-      "id": 25,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "The \"Dead time\" of a sensor refers to:",
-      "options": [
-        {"key": "a", "text": "The total lifespan of the sensor."},
-        {"key": "b", "text": "The time it takes for the sensor to power on."},
-        {"key": "c", "text": "The time after a measurement during which the sensor is materially blocked before a new measurement can be taken."},
-        {"key": "d", "text": "The delay in signal transmission from the sensor to the processing unit."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 39 of `document.pdf` defines \"Dead time: After a measurement, some sensors are materially blocked for a certain time before a new measurement can be taken.\""
-    },
-    {
-      "id": 26,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "What does the \"Range\" of a sensor typically specify?",
-      "options": [
-        {"key": "a", "text": "The physical distance the sensor can be from the object being measured."},
-        {"key": "b", "text": "The valid measurement interval of the physical quantity within the proposed accuracy."},
-        {"key": "c", "text": "The number of different physical quantities the sensor can measure."},
-        {"key": "d", "text": "The wireless communication range of the sensor."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 42 of `document.pdf` states, \"The measurement range is the valid measurement interval of the physical quantity (within the proposed accuracy).\""
-    },
-    {
-      "id": 27,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "The process of finding a mathematical model for the sensor's transfer function and quantifying its predictability strength is known as:",
-      "options": [
-        {"key": "a", "text": "Saturation"},
-        {"key": "b", "text": "Attenuation"},
-        {"key": "c", "text": "Calibration"},
-        {"key": "d", "text": "Modulation"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 43 of `document.pdf` describes \"Calibration: find a mathematical model as transfer function & quantify its predictability strength\"."
-    },
-    {
-      "id": 28,
-      "section": "IoT Sensors (Based on document.pdf)",
-      "question_text": "In a typical sensor signal processing scheme to connect to a computer, what is the role of an ADC?",
-      "options": [
-        {"key": "a", "text": "To convert the physical quantity directly into a digital value."},
-        {"key": "b", "text": "To convert an electrical tension (analog voltage) into a digital value."},
-        {"key": "c", "text": "To amplify the sensor's raw output."},
-        {"key": "d", "text": "To filter noise from the sensor's signal."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 44 of `document.pdf`, the diagram shows the \"Conversion into an electrical tension\" followed by \"ADC\" leading to the \"computer\" (digital value)."
-    },
-    {
-      "id": 29,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "What is the \"IoT dilemma\" regarding power autonomy as described in the slides?",
-      "options": [
-        {"key": "a", "text": "Choosing between high processing power and low cost."},
-        {"key": "b", "text": "Balancing the need for long battery life (larger battery) versus small device size (smaller battery)."},
-        {"key": "c", "text": "Deciding between wired power and wireless charging."},
-        {"key": "d", "text": "Optimizing for either high data rates or low latency."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 3 of `document(1).pdf` presents the dilemma as \"Increase battery to last longer\" vs. \"reduce battery to save space\"."
-    },
-    {
-      "id": 30,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Which of the following is a primary strategy for achieving power autonomy in IoT devices?",
-      "options": [
-        {"key": "a", "text": "Increasing the clock speed of the processor."},
-        {"key": "b", "text": "Using high-brightness LCD screens for better visibility."},
-        {"key": "c", "text": "Energy harvesting."},
-        {"key": "d", "text": "Employing complex encryption algorithms for all data."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 4 of `document(1).pdf` lists \"energy harvesting\" as a key approach."
-    },
-    {
-      "id": 31,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "If a battery has a nominal capacity of 2000mAh and a voltage of 3.7V, what is its energy capacity in Wh (Watt-hours)?",
-      "options": [
-        {"key": "a", "text": "2.0 Wh"},
-        {"key": "b", "text": "3.7 Wh"},
-        {"key": "c", "text": "7.4 Wh"},
-        {"key": "d", "text": "540.5 Wh"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Energy (Wh) = Capacity (Ah) * Voltage (V). So, 2000mAh = 2Ah. Energy = 2Ah * 3.7V = 7.4Wh. (Concept from page 5 of `document(1).pdf`)."
-    },
-    {
-      "id": 32,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "According to the smartphone power breakdown (A. Carroll et al., USENIX ATC 2010), which component consumes the largest percentage of power?",
-      "options": [
-        {"key": "a", "text": "CPU"},
-        {"key": "b", "text": "GSM Radio"},
-        {"key": "c", "text": "LCD Backlight"},
-        {"key": "d", "text": "WiFi"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 8 of `document(1).pdf`, the pie chart for smartphone power breakdown shows \"LCD Backlight 60%\"."
-    },
-    {
-      "id": 33,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "In the power breakdown for a mobile phone in a suspended state, the aggregate power consumed is approximately:",
-      "options": [
-        {"key": "a", "text": "10 mW"},
-        {"key": "b", "text": "68.6 mW"},
-        {"key": "c", "text": "268.8 mW"},
-        {"key": "d", "text": "500 mW"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 10 of `document(1).pdf`, Figure 2 caption: \"Power breakdown in the suspended state. The aggregate power consumed is 68.6 mW.\""
-    },
-    {
-      "id": 34,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Which screen technology is mentioned as needing backlight illumination?",
-      "options": [
-        {"key": "a", "text": "OLED"},
-        {"key": "b", "text": "Electronic Ink"},
-        {"key": "c", "text": "LCD"},
-        {"key": "d", "text": "AMOLED"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 12 of `document(1).pdf` states, \"LCD needs backlight illumination\"."
-    },
-    {
-      "id": 35,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "\"Undervolting\" is a technique to reduce processor power by primarily targeting:",
-      "options": [
-        {"key": "a", "text": "Switching loss (proportional to V^2) and Leakage loss (proportional to V)."},
-        {"key": "b", "text": "Only leakage loss."},
-        {"key": "c", "text": "Only switching loss."},
-        {"key": "d", "text": "Heat dissipation without affecting power consumption."}
-      ],
-      "correct_answer_letter": "a",
-      "explanation": "Page 13 of `document(1).pdf` explains \"Switching loss: ...Power is proportional to the voltage square, V^2.\" and \"Leakage loss: ...Power is proportional to voltage V.\" Undervolting reduces V."
-    },
-    {
-      "id": 36,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "What does DVFS stand for in the context of reducing processor power?",
-      "options": [
-        {"key": "a", "text": "Dynamic Voltage Frequency Saturation"},
-        {"key": "b", "text": "Direct Voltage Fluctuation System"},
-        {"key": "c", "text": "Dynamic Voltage Frequency Scaling"},
-        {"key": "d", "text": "Device Verification and Fault System"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 14 of `document(1).pdf` defines \"DVFS: Dynamic Voltage Frequency scaling\"."
-    },
-    {
-      "id": 37,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "The ADXL362 accelerometer's \"wake-up mode (motion triggered wake-up)\" consumes approximately:",
-      "options": [
-        {"key": "a", "text": "0.01 µA"},
-        {"key": "b", "text": "0.27 µA"},
-        {"key": "c", "text": "1.8 µA"},
-        {"key": "d", "text": "13 µA"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 15 of `document(1).pdf`, the table for ADXL362 lists \"wake-up mode (motion triggered wake-up)\" as \"0.27 µA\"."
-    },
-    {
-      "id": 38,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Which of the following wireless technologies generally has the highest power consumption (Tx) according to the comparison table?",
-      "options": [
-        {"key": "a", "text": "BLE"},
-        {"key": "b", "text": "Wi-Fi"},
-        {"key": "c", "text": "Cellular (2G/3G/LTE)"},
-        {"key": "d", "text": "ZigBee"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 18 of `document(1).pdf`, the table shows Cellular (Tx) at 700 mA, Wi-Fi at 300 mA, and BLE at 18 mA."
-    },
-    {
-      "id": 39,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "What is a key advantage of solid-state batteries over traditional Li-ion batteries mentioned in the slides?",
-      "options": [
-        {"key": "a", "text": "Lower cost for large batteries currently."},
-        {"key": "b", "text": "Lower energy density."},
-        {"key": "c", "text": "Higher energy density and no sparking hazard."},
-        {"key": "d", "text": "Wider availability in consumer devices."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 19 of `document(1).pdf` lists \"higher energy density (double of Li-ion)\" and \"no sparking hazard\" as advantages of solid-state batteries."
-    },
-    {
-      "id": 40,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Energy harvesting refers to:",
-      "options": [
-        {"key": "a", "text": "Storing excess energy from the grid."},
-        {"key": "b", "text": "The conversion of ambient energy into electric energy."},
-        {"key": "c", "text": "Improving battery charging efficiency."},
-        {"key": "d", "text": "Using non-rechargeable high-capacity batteries."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 20 of `document(1).pdf` defines energy harvesting as \"Usage of power sources in the IoT's environment. Conversion of ambient energy into electric energy\"."
-    },
-    {
-      "id": 41,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Which energy harvesting source typically provides the highest harvested power ($mW/cm^2$) in an outdoor environment?",
-      "options": [
-        {"key": "a", "text": "Light (Solar)"},
-        {"key": "b", "text": "Mechanical vibration (piezoelectric from human)"},
-        {"key": "c", "text": "Thermal (human)"},
-        {"key": "d", "text": "Radio waves (background)"}
-      ],
-      "correct_answer_letter": "a",
-      "explanation": "Page 22 of `document(1).pdf`, the table shows \"Light - outdoor\" at \"$10mW/cm^2$\", which is higher than other listed outdoor/human sources."
-    },
-    {
-      "id": 42,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "According to the comparison table, what is a typical harvesting efficiency for light (solar) energy?",
-      "options": [
-        {"key": "a", "text": "0.1-3%"},
-        {"key": "b", "text": "10-25%"},
-        {"key": "c", "text": "25-50%"},
-        {"key": "d", "text": "Over 50%"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 22 of `document(1).pdf`, the table lists \"Light\" harvesting efficiency as \"10-25%\"."
-    },
-    {
-      "id": 43,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "Which principle is used by a rectenna for energy harvesting?",
-      "options": [
-        {"key": "a", "text": "Seebeck effect"},
-        {"key": "b", "text": "Piezoelectric effect"},
-        {"key": "c", "text": "Converting electromagnetic wave energy into direct current"},
-        {"key": "d", "text": "Electromagnetic induction from vibrations"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 21 of `document(1).pdf` states Rectenna \"(rectifying antenna that converts electromagnetic wave energy into direct current)\"."
-    },
-    {
-      "id": 44,
-      "section": "IoT Power Management (Based on document(1).pdf)",
-      "question_text": "In the power budget diagram for an energy-harvesting IoT system, what is the role of the \"Wake-up receiver\"?",
-      "options": [
-        {"key": "a", "text": "To generate power from ambient RF signals."},
-        {"key": "b", "text": "To allow the main MCU to remain in a deep sleep state until an external trigger is received."},
-        {"key": "c", "text": "To manage the charging of the energy storage unit."},
-        {"key": "d", "text": "To convert harvested energy into a usable voltage."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 25 of `document(1).pdf`, the \"Wake-up receiver\" is shown as an input to the system, implying it listens for a signal to wake the MCU, thus saving power."
-    },
-    {
-      "id": 45,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Which of the following is NOT listed as a typical \"IoT specifity\" demanding specific network characteristics?",
-      "options": [
-        {"key": "a", "text": "Highly autonomous operation"},
-        {"key": "b", "text": "Small and intermittent amount of data"},
-        {"key": "c", "text": "High bandwidth requirements for video streaming"},
-        {"key": "d", "text": "Small device size"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 3 of `document(2).pdf` lists IoT specificities like \"small and intermittent amount of data\" and \"low bandwidth ok,\" making high bandwidth for video streaming contrary to typical IoT demands."
-    },
-    {
-      "id": 46,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "NFC (Near Field Communication) is categorized under which type of wireless network range?",
-      "options": [
-        {"key": "a", "text": "Wireless Personal Area Network (WPAN)"},
-        {"key": "b", "text": "Wireless Local Area Network (WLAN)"},
-        {"key": "c", "text": "Proximity (Contact range 0-10 meter)"},
-        {"key": "d", "text": "Low Power Wide Area Network (LPWAN)"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 4 of `document(2).pdf` categorizes NFC under \"Proximity Contact range (0-10 meter)\"."
-    },
-    {
-      "id": 47,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is a key difference between NFC and HF RFID regarding communication direction?",
-      "options": [
-        {"key": "a", "text": "NFC is one-way, HF RFID is two-way."},
-        {"key": "b", "text": "NFC is two-way, HF RFID is typically one-way."},
-        {"key": "c", "text": "Both are strictly one-way."},
-        {"key": "d", "text": "Both are always two-way."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 5 of `document(2).pdf` states NFC has \"two way communication\" and HF RFID has \"one way communication\"."
-    },
-    {
-      "id": 48,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "According to the data rate vs. range chart, which technology generally offers the highest data rate?",
-      "options": [
-        {"key": "a", "text": "ZigBee"},
-        {"key": "b", "text": "Bluetooth"},
-        {"key": "c", "text": "Wi-Fi"},
-        {"key": "d", "text": "Sigfox"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 7 of `document(2).pdf`, the chart shows Wi-Fi at the top of the data rate scale (up to 1 Gbps)."
-    },
-    {
-      "id": 49,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is a primary disadvantage of using IP/IPv6 for small data IoT applications?",
-      "options": [
-        {"key": "a", "text": "Lack of scalability for addresses."},
-        {"key": "b", "text": "Inability to address devices directly over the internet."},
-        {"key": "c", "text": "Large overhead (e.g., 40 bytes for TCP)."},
-        {"key": "d", "text": "Lower security compared to proprietary protocols."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 8 of `document(2).pdf` lists as a disadvantage: \"large overhead, typically 40bytes for TCP → strain for small data IOT.\""
-    },
-    {
-      "id": 50,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Which of the following is NOT listed as an example of a LoWPAN technology?",
-      "options": [
-        {"key": "a", "text": "Bluetooth Low Energy (BLE)"},
-        {"key": "b", "text": "ZigBee"},
-        {"key": "c", "text": "Sigfox"},
-        {"key": "d", "text": "WiFi HaLow"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 9 of `document(2).pdf` lists BLE, ZigBee, 6LoWPAN (Z-Wave), and WiFi HaLow as LoWPAN. Sigfox (Page 18) is an LPWAN technology."
-    },
-    {
-      "id": 51,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Bluetooth 4.0 is also known as:",
-      "options": [
-        {"key": "a", "text": "Bluetooth Classic"},
-        {"key": "b", "text": "Bluetooth High Speed"},
-        {"key": "c", "text": "Bluetooth Low Energy (BLE) or Bluetooth Smart"},
-        {"key": "d", "text": "Bluetooth Mesh"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 10 of `document(2).pdf` states \"Bluetooth 4.0 OR Bluetooth Low Energy, BLE, BTLE OR Bluetooth smart\"."
-    },
-    {
-      "id": 52,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is a significant advantage of Bluetooth 4.0 (BLE) over Bluetooth 3.0 regarding power consumption?",
-      "options": [
-        {"key": "a", "text": "BT 4.0 consumes roughly the same power."},
-        {"key": "b", "text": "BT 4.0 consumes 2 times less power."},
-        {"key": "c", "text": "BT 4.0 consumes 10 times (or 0.01 to 0.5 of BT3.0) lower power."},
-        {"key": "d", "text": "BT 4.0 consumes more power due to enhanced features."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 10 of `document(2).pdf` mentions \"10 times lower power consumption.\" Page 12 table shows BT smart power consumption as \"0.01 to 0.5 of BT3.0\"."
-    },
-    {
-      "id": 53,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is the typical range of Bluetooth Smart (BLE)?",
-      "options": [
-        {"key": "a", "text": "1m"},
-        {"key": "b", "text": "10m"},
-        {"key": "c", "text": "50m"},
-        {"key": "d", "text": "100m"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 12 of `document(2).pdf`, the table lists BT smart range as \"10m\". (Note: Chart on page 7 shows up to 100m for Bluetooth in general, but the specific BT smart vs BT 3.0 table is more precise for BLE)."
-    },
-    {
-      "id": 54,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "ZigBee is based on which IEEE standard?",
-      "options": [
-        {"key": "a", "text": "IEEE 802.11"},
-        {"key": "b", "text": "IEEE 802.15.1"},
-        {"key": "c", "text": "IEEE 802.15.4"},
-        {"key": "d", "text": "IEEE 802.3"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 13 of `document(2).pdf` states ZigBee is \"Based on IEEE802.15.4 protocol\"."
-    },
-    {
-      "id": 55,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is the network topology primarily associated with ZigBee?",
-      "options": [
-        {"key": "a", "text": "Star"},
-        {"key": "b", "text": "Piconet"},
-        {"key": "c", "text": "Mesh"},
-        {"key": "d", "text": "Point-to-point only"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 14 of `document(2).pdf`, the table lists ZigBee topology as \"Mesh\"."
-    },
-    {
-      "id": 56,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is the main purpose of header compression in 6LoWPAN?",
-      "options": [
-        {"key": "a", "text": "To increase the data transmission rate."},
-        {"key": "b", "text": "To reduce data overhead for small packet transmissions."},
-        {"key": "c", "text": "To enhance security by obscuring header information."},
-        {"key": "d", "text": "To allow compatibility with older IPv4 networks."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 15 of `document(2).pdf` mentions \"Header Compression to reduce data overhead\" for 6LoWPAN."
-    },
-    {
-      "id": 57,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Which of the following is a 6LoWPAN solution?",
-      "options": [
-        {"key": "a", "text": "Classic Bluetooth"},
-        {"key": "b", "text": "Standard Wi-Fi (802.11n)"},
-        {"key": "c", "text": "Thread"},
-        {"key": "d", "text": "NFC"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 15 of `document(2).pdf` lists \"Thread\" as a 6LoWPAN solution."
-    },
-    {
-      "id": 58,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Wi-Fi HaLow is based on which IEEE specification?",
-      "options": [
-        {"key": "a", "text": "IEEE 802.11ac"},
-        {"key": "b", "text": "IEEE 802.11af"},
-        {"key": "c", "text": "IEEE 802.11ah"},
-        {"key": "d", "text": "IEEE 802.11p"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 16 of `document(2).pdf` states Wi-Fi HaLow is \"on IEEE 802.11ah specifications\"."
-    },
-    {
-      "id": 59,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is the primary advantage of Wi-Fi HaLow using the 900MHz spectrum compared to 2.4GHz/5GHz Wi-Fi?",
-      "options": [
-        {"key": "a", "text": "Higher data rates."},
-        {"key": "b", "text": "Lower cost of chipsets."},
-        {"key": "c", "text": "Better penetration through walls and increased range."},
-        {"key": "d", "text": "Simpler security implementation."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 16 of `document(2).pdf` mentions for 900MHz: \"Lower frequency penetrates more easily walls and barriers → increasing range upto 1000m.\""
-    },
-    {
-      "id": 60,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "LPWAN technologies are primarily characterized by:",
-      "options": [
-        {"key": "a", "text": "High data rates and short range."},
-        {"key": "b", "text": "Low power consumption and long range."},
-        {"key": "c", "text": "High bandwidth and low latency."},
-        {"key": "d", "text": "Complex mesh networking and high device cost."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 18 of `document(2).pdf` describes LPWAN with \"Low power consumption... battery life in the order of 10 years\" and it's for \"Wide-Area-Networks\"."
-    },
-    {
-      "id": 61,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "LoRa and SigFox operate in which type of spectrum?",
-      "options": [
-        {"key": "a", "text": "Licensed spectrum"},
-        {"key": "b", "text": "Unlicensed spectrum"},
-        {"key": "c", "text": "Shared spectrum (like CBRS)"},
-        {"key": "d", "text": "Military spectrum"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 19 of `document(2).pdf` lists LoRa and SigFox under \"Unlicenced spectrum (the disruptors)\"."
-    },
-    {
-      "id": 62,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "NB-IoT and LTE-M are examples of LPWAN technologies that operate in:",
-      "options": [
-        {"key": "a", "text": "Unlicensed spectrum"},
-        {"key": "b", "text": "Licensed spectrum"},
-        {"key": "c", "text": "TV White Space"},
-        {"key": "d", "text": "ISM bands exclusively"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 19 of `document(2).pdf` lists NB-IOT and LTE-MTC under \"Licenced spectrum\"."
-    },
-    {
-      "id": 63,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is a stated advantage of LPWA technologies in licensed spectrum according to operators?",
-      "options": [
-        {"key": "a", "text": "Lower deployment cost than unlicensed."},
-        {"key": "b", "text": "No need for standardization."},
-        {"key": "c", "text": "Better capacity, scalability, and security."},
-        {"key": "d", "text": "Open source hardware and software."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 21 of `document(2).pdf` states, \"Due to the limitations of LPWA technologies in unlicensed spectrum, such as capacity, scalability, security... operators have a clear preference to use standardized LPWA technologies operating in licensed spectrum\"."
-    },
-    {
-      "id": 64,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is the typical network topology of a LoRaWAN network?",
-      "options": [
-        {"key": "a", "text": "Mesh"},
-        {"key": "b", "text": "Star (End devices to Gateways)"},
-        {"key": "c", "text": "Ring"},
-        {"key": "d", "text": "Bus"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 23 of `document(2).pdf` shows a diagram of LoRa architecture as a star topology with end devices connecting to gateways."
-    },
-    {
-      "id": 65,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "LoRaWAN provides security through:",
-      "options": [
-        {"key": "a", "text": "Physical layer encryption only."},
-        {"key": "b", "text": "Application layer user-defined passwords."},
-        {"key": "c", "text": "AES-128 encryption (e.g., NWKSKEY, APPSKEY)."},
-        {"key": "d", "text": "No inherent security features."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 23 of `document(2).pdf` diagram shows \"AES-128 NWKSKEY\" and \"AES-128 APPSKEY\". Page 22 also mentions \"secure bi-directional\"."
-    },
-    {
-      "id": 66,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "What is a significant limitation of Sigfox regarding data transmission?",
-      "options": [
-        {"key": "a", "text": "Unlimited data packets per day."},
-        {"key": "b", "text": "Very high data rate (Mbps)."},
-        {"key": "c", "text": "Maximum of 140 data packets per day, each with a small payload (e.g., 12 bytes)."},
-        {"key": "d", "text": "Requires constant connection to the gateway."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 25 of `document(2).pdf` states for Sigfox: \"max 140 data packets per day\" and \"each data packet carries 12bytes maximum\"."
-    },
-    {
-      "id": 67,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Comparing LoRa and Sigfox, which statement is generally true according to the slides?",
-      "options": [
-        {"key": "a", "text": "Sigfox has better specifications for data throughput."},
-        {"key": "b", "text": "LoRa offers a clearer, more established business model for rapid rollout."},
-        {"key": "c", "text": "LoRa generally offers longer battery life for higher data throughput and free access to the internet (via own gateways)."},
-        {"key": "d", "text": "Sigfox is open source, while LoRa is proprietary."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 28 of `document(2).pdf` states \"LORA has better specs > longer battery life for higher data throughput > free access to internet\"."
-    },
-    {
-      "id": 68,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Which licensed frequency band solution is noted as extending the existing GSM network and being easy to deploy?",
-      "options": [
-        {"key": "a", "text": "LTE-M"},
-        {"key": "b", "text": "EC-GSM (Extended Coverage GSM)"},
-        {"key": "c", "text": "NB-IoT"},
-        {"key": "d", "text": "5G New Radio"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 29 of `document(2).pdf` lists \"EC-GSM (extends existing GSM network, easy to deploy)\"."
-    },
-    {
-      "id": 69,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "NB-IoT is characterized by:",
-      "options": [
-        {"key": "a", "text": "Using existing LTE network infrastructure without modification."},
-        {"key": "b", "text": "A very wide bandwidth (e.g., 20 MHz)."},
-        {"key": "c", "text": "Operating in a narrowband (e.g., 200 kHz or 180kHz) and potentially needing specific network installations."},
-        {"key": "d", "text": "Primarily designed for high mobility applications."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 29 of `document(2).pdf` notes NB-IOT \"needs specific network to be installed\". Page 30 shows NB-IoT as \"-200 kHz narrowband\" or \"-1 MHz narrowband\"."
-    },
-    {
-      "id": 70,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "Comparing power consumption (sleep mode) between LoRa and NB-IoT, the slides indicate:",
-      "options": [
-        {"key": "a", "text": "NB-IoT has significantly lower sleep current."},
-        {"key": "b", "text": "LoRa generally has lower sleep current (e.g., 0.1-2uA vs 2-10uA for NB-IoT)."},
-        {"key": "c", "text": "Both have identical sleep current."},
-        {"key": "d", "text": "Sleep mode is not relevant for these technologies."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 31 of `document(2).pdf`, the table shows LoRa sleep current as \"0.1-2uA\" and NB-IoT as \"2-10uA\"."
-    },
-    {
-      "id": 71,
-      "section": "IoT Wireless Networks (Based on document(2).pdf)",
-      "question_text": "The personal forecast for IoT wireless technologies in 10 years suggests a dominance of:",
-      "options": [
-        {"key": "a", "text": "Many fragmented proprietary technologies."},
-        {"key": "b", "text": "Exclusively unlicensed spectrum solutions."},
-        {"key": "c", "text": "A WiFi LowPower version and a 6G licensed spectrum solution including IoT functionality."},
-        {"key": "d", "text": "A complete shift away from IP-based solutions."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 32 of `document(2).pdf` gives a personal forecast: \"WiFi LowPower version... 6G licensed spectrum including IoT functionality\"."
-    },
-    {
-      "id": 72,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "Which of the following is NOT listed as a reason for the low barrier to entrance for platforms like Arduino and Raspberry Pi?",
-      "options": [
-        {"key": "a", "text": "Simple to start and test"},
-        {"key": "b", "text": "Low financial cost"},
-        {"key": "c", "text": "Built-in AI processing capabilities"},
-        {"key": "d", "text": "Large community for support"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 34 of `document(2).pdf` lists reasons for low barrier. Built-in AI is not mentioned as a general characteristic of these basic platforms."
-    },
-    {
-      "id": 73,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "The Arduino Uno is best described as a:",
-      "options": [
-        {"key": "a", "text": "Full-fledged single-board computer with an OS."},
-        {"key": "b", "text": "Micro-controller board that runs developer code directly upon power-up."},
-        {"key": "c", "text": "High-performance CPU for complex computations."},
-        {"key": "d", "text": "Wireless gateway device."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 35 of `document(2).pdf` describes Arduino Uno as a \"Micro-controller board no full OS, if powered up it starts running developer code\"."
-    },
-    {
-      "id": 74,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "What is the typical clock speed of the ATmega328 microcontroller on an Arduino Uno?",
-      "options": [
-        {"key": "a", "text": "1.2 GHz"},
-        {"key": "b", "text": "500 MHz"},
-        {"key": "c", "text": "16 MHz"},
-        {"key": "d", "text": "8 MHz"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 35 of `document(2).pdf` lists \"16MHz clock, ATmega328\"."
-    },
-    {
-      "id": 75,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "How much RAM does an Arduino Uno typically have?",
-      "options": [
-        {"key": "a", "text": "1GB"},
-        {"key": "b", "text": "512MB"},
-        {"key": "c", "text": "64kB"},
-        {"key": "d", "text": "2kB"}
-      ],
-      "correct_answer_letter": "d",
-      "explanation": "Page 35 of `document(2).pdf` lists \"2kB RAM\"."
-    },
-    {
-      "id": 76,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "Which programming language is primarily associated with Arduino, described as a simplified set of C/C++ commands?",
-      "options": [
-        {"key": "a", "text": "Python"},
-        {"key": "b", "text": "Java"},
-        {"key": "c", "text": "Arduino Language"},
-        {"key": "d", "text": "Ruby"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 35 of `document(2).pdf` states \"Programming language : Arduino, simplified set of C / C++ commands\"."
-    },
-    {
-      "id": 77,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "Does a standard Arduino Uno have built-in network connectivity (WiFi/Ethernet) without additional shields?",
-      "options": [
-        {"key": "a", "text": "Yes, it has built-in WiFi."},
-        {"key": "b", "text": "Yes, it has built-in Ethernet."},
-        {"key": "c", "text": "No, it requires additional shields for network connectivity."},
-        {"key": "d", "text": "Yes, it has built-in Bluetooth."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 35 of `document(2).pdf` states \"no network connectivity (only with additional shields)\"."
-    },
-    {
-      "id": 78,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "The Raspberry Pi 3 is described as:",
-      "options": [
-        {"key": "a", "text": "A simple microcontroller."},
-        {"key": "b", "text": "A Linux-based single-board computer capable of multi-tasking."},
-        {"key": "c", "text": "A low-power sensor node."},
-        {"key": "d", "text": "A dedicated real-time operating system device."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 36 of `document(2).pdf` describes Raspberry Pi 3 as \"Linux based Multi-tasking\"."
-    },
-    {
-      "id": 79,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "How much RAM does a Raspberry Pi 3 typically have?",
-      "options": [
-        {"key": "a", "text": "2kB"},
-        {"key": "b", "text": "256MB"},
-        {"key": "c", "text": "1GB"},
-        {"key": "d", "text": "4GB"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 36 of `document(2).pdf` lists \"RAM: 1GB\" for Raspberry Pi 3."
-    },
-    {
-      "id": 80,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "Which of these communication interfaces is NOT typically found on a Raspberry Pi 3?",
-      "options": [
-        {"key": "a", "text": "SPI"},
-        {"key": "b", "text": "I2C"},
-        {"key": "c", "text": "CAN bus (without add-ons)"},
-        {"key": "d", "text": "UART"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 36 of `document(2).pdf` lists SPI/I2C/UART, Ethernet, WiFi/BTLE for Raspberry Pi 3. CAN bus typically requires an add-on."
-    },
-    {
-      "id": 81,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "Compared to Raspberry Pi, Arduino is generally considered:",
-      "options": [
-        {"key": "a", "text": "Better for multimedia applications."},
-        {"key": "b", "text": "More complex to use for simple tasks."},
-        {"key": "c", "text": "Easier to use and more robust for simple, repetitive tasks and experimental conditions."},
-        {"key": "d", "text": "Having integrated web server capabilities by default."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 37 of `document(2).pdf` states Arduino is \"Easier to use Best for simple, repetitive task More robust in experimental conditions\"."
-    },
-    {
-      "id": 82,
-      "section": "IoT Prototyping Platforms (Based on document(2).pdf)",
-      "question_text": "For an IoT project requiring a full operating system, web server capabilities, and integrated WiFi/BTLE, which platform would be more suitable according to the slides?",
-      "options": [
-        {"key": "a", "text": "Arduino Uno"},
-        {"key": "b", "text": "Raspberry Pi 3"},
-        {"key": "c", "text": "A basic ATmega328 chip"},
-        {"key": "d", "text": "An FPGA board"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 37 of `document(2).pdf` highlights Raspberry Pi for \"Full fledged computer,\" \"Needed for use as Web server,\" and \"Web connection integrated.\" Page 36 lists WiFi/BTLE."
-    },
-    {
-      "id": 83,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The concept of \"Smartdust\" as a future forecast implies:",
-      "options": [
-        {"key": "a", "text": "Large, powerful IoT gateways."},
-        {"key": "b", "text": "Fully autonomous (energy harvested), meshed interconnected networks connecting to WiFi hubs."},
-        {"key": "c", "text": "IoT devices primarily focused on air quality monitoring."},
-        {"key": "d", "text": "A new type of secure communication protocol."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 32 of `document(2).pdf`, the forecast for \"smartdust\" describes it as \"fully autonomous (energy harvested), meshed interconnected network connecting to wifi hubs\"."
-    },
-    {
-      "id": 84,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "What is the primary function of an \"actuator\" in an IoT system?",
-      "options": [
-        {"key": "a", "text": "To sense physical phenomena."},
-        {"key": "b", "text": "To process data locally."},
-        {"key": "c", "text": "To convert an electrical signal into a physical action (e.g., opening a valve, turning on a light)."},
-        {"key": "d", "text": "To transmit data to the cloud."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 26 of `document.pdf` defines Actuator as \"The opposite of a sensor.\" Sensors convert physical to electrical; actuators convert electrical to physical action. (Also implied on page 17, `document.pdf`)."
-    },
-    {
-      "id": 85,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The term \"6LoWPAN\" specifically refers to enabling IPv6 over:",
-      "options": [
-        {"key": "a", "text": "High-power Wide Area Networks."},
-        {"key": "b", "text": "Low-power Wireless Personal Area Networks."},
-        {"key": "c", "text": "Wired Ethernet networks."},
-        {"key": "d", "text": "Optical fiber communication."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 15 of `document(2).pdf` defines 6LoWPAN as \"IPv6 for Low power Wireless Personal Area Networks\"."
-    },
-    {
-      "id": 86,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "If an IoT device sends small chunks of data infrequently and needs to preserve energy, Bluetooth 4.0 (BLE) achieves this by:",
-      "options": [
-        {"key": "a", "text": "Maintaining a constant high-bandwidth connection."},
-        {"key": "b", "text": "Sending data and then putting the connection to sleep during idle periods."},
-        {"key": "c", "text": "Using a very high transmission power to reduce connection time."},
-        {"key": "d", "text": "Requiring manual pairing for every data transmission."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 11 of `document(2).pdf` states BT 4.0 \"Sends small chunks of data when necessary and puts the connection to sleep mode during idle periods.\""
-    },
-    {
-      "id": 87,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The \"ZigBee IP\" release specifically aims to improve ZigBee by:",
-      "options": [
-        {"key": "a", "text": "Reducing its operational range."},
-        {"key": "b", "text": "Removing security features to save power."},
-        {"key": "c", "text": "Including IPv6 compatibility."},
-        {"key": "d", "text": "Focusing solely on star topology."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 13 of `document(2).pdf` mentions \"Newest release: Zigbee IP Includes Ipv6\"."
-    },
-    {
-      "id": 88,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The \"LoRa PHY\" refers to:",
-      "options": [
-        {"key": "a", "text": "The application layer protocol for LoRa."},
-        {"key": "b", "text": "The physical layer modulation technique used by LoRa."},
-        {"key": "c", "text": "The network server software for LoRaWAN."},
-        {"key": "d", "text": "The encryption algorithm used in LoRa."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 23 of `document(2).pdf`, \"LORA PHY\" is shown at the physical connection layer between end devices and gateways. PHY typically stands for Physical Layer."
-    },
-    {
-      "id": 89,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "A key characteristic of Sigfox's business model mentioned is:",
-      "options": [
-        {"key": "a", "text": "Open-source hardware and free network access."},
-        {"key": "b", "text": "Subscription by monthly charges per IoT device."},
-        {"key": "c", "text": "One-time fee for lifetime network access."},
-        {"key": "d", "text": "Revenue generated through data analytics services only."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 25 of `document(2).pdf` mentions for Sigfox: \"subscription by monthly charges per lot device\"."
-    },
-    {
-      "id": 90,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "Power reduction in chips due to \"Switching loss\" is proportional to:",
-      "options": [
-        {"key": "a", "text": "Voltage (V)"},
-        {"key": "b", "text": "Voltage squared (V^2)"},
-        {"key": "c", "text": "Current (I)"},
-        {"key": "d", "text": "Frequency (f)"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 13 of `document(1).pdf` states, \"Switching loss: ...Power is proportional to the voltage square, V^2.\""
-    },
-    {
-      "id": 91,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "\"Leakage loss\" in chips is proportional to:",
-      "options": [
-        {"key": "a", "text": "Voltage (V)"},
-        {"key": "b", "text": "Voltage squared (V^2)"},
-        {"key": "c", "text": "Resistance (R)"},
-        {"key": "d", "text": "Capacitance (C)"}
-      ],
-      "correct_answer_letter": "a",
-      "explanation": "Page 13 of `document(1).pdf` states, \"Leakage loss: ...Power is proportional to voltage V.\""
-    },
-    {
-      "id": 92,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "Which energy harvesting principle is utilized when generating power from temperature differences (e.g., body heat vs. ambient)?",
-      "options": [
-        {"key": "a", "text": "Photovoltaic effect"},
-        {"key": "b", "text": "Piezoelectric effect"},
-        {"key": "c", "text": "Thermoelectric effect (e.g., Seebeck power generation)"},
-        {"key": "d", "text": "Electromagnetic induction"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 21 of `document(1).pdf` lists \"Thermal energy... Thermoelectric element (e.g. using Seebeck power generation elements for temperature difference power generation)\"."
-    },
-    {
-      "id": 93,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "For an IoT application requiring direct internet addressability for each end device and scalability for a massive number of devices, which IP version is more suitable?",
-      "options": [
-        {"key": "a", "text": "IPv4 due to its simplicity."},
-        {"key": "b", "text": "IPv6 due to its larger address space."},
-        {"key": "c", "text": "Proprietary non-IP addressing."},
-        {"key": "d", "text": "MAC addressing only."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 8 of `document(2).pdf` highlights IPv6 \"scalability (128bit addresses: 10^38 of individual addresses)\"."
-    },
-    {
-      "id": 94,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The term \"WNAN\" in the context of IoT wireless networks stands for:",
-      "options": [
-        {"key": "a", "text": "Wireless Narrowband Area Network"},
-        {"key": "b", "text": "Wireless Neighborhood Area Network"},
-        {"key": "c", "text": "Wideband Nano Area Network"},
-        {"key": "d", "text": "Wired Network Access Node"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 4 of `document(2).pdf` and page 17 of `document(1).pdf` use the term WNAN and expand it as Wireless Neighborhood Area Network."
-    },
-    {
-      "id": 95,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "Which of these is NOT a typical component of the \"Power budget\" consideration for an IoT system?",
-      "options": [
-        {"key": "a", "text": "Project power consumption (drain and frequency of tasks)"},
-        {"key": "b", "text": "Energy sources (battery, harvesting)"},
-        {"key": "c", "text": "Energy storage (capacitors, batteries)"},
-        {"key": "d", "text": "User interface design complexity"}
-      ],
-      "correct_answer_letter": "d",
-      "explanation": "Page 25 of `document(1).pdf` lists components of a power budget, which are technical power aspects. UI design complexity is a different domain."
-    },
-    {
-      "id": 96,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The use of \"duty cycling\" in IoT power management primarily aims to:",
-      "options": [
-        {"key": "a", "text": "Increase the processing speed of the device."},
-        {"key": "b", "text": "Turn components completely off or into low-power states when not actively needed."},
-        {"key": "c", "text": "Improve the wireless signal strength."},
-        {"key": "d", "text": "Enhance the security of data transmission."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 13 of `document(1).pdf` mentions \"Duty cycle: turning components completely off when not used.\" Page 14 elaborates on defining states of activity and using the lowest power level."
-    },
-    {
-      "id": 97,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "In the context of sensor measurements, if multiple readings of a constant physical quantity are widely scattered but their average is very close to the true value, the sensor has:",
-      "options": [
-        {"key": "a", "text": "High precision, high trueness"},
-        {"key": "b", "text": "Low precision, high trueness"},
-        {"key": "c", "text": "High precision, low trueness"},
-        {"key": "d", "text": "Low precision, low trueness"}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Widely scattered means low precision. Average close to true value means high trueness. (Concept from page 33, `document.pdf`)."
-    },
-    {
-      "id": 98,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The choice between Arduino and Raspberry Pi for an IoT project often depends on whether the application requires:",
-      "options": [
-        {"key": "a", "text": "Only analog sensor inputs (favoring Raspberry Pi)."},
-        {"key": "b", "text": "A full operating system and complex software (favoring Raspberry Pi)."},
-        {"key": "c", "text": "The lowest possible power consumption in all scenarios (favoring Raspberry Pi)."},
-        {"key": "d", "text": "The simplest possible hardware setup for blinking an LED (favoring Raspberry Pi)."}
-      ],
-      "correct_answer_letter": "b",
-      "explanation": "Page 37 of `document(2).pdf` indicates Raspberry Pi is a \"Full fledged computer\" and suited for tasks like being a \"Web server,\" implying OS and complex software capabilities."
-    },
-    {
-      "id": 99,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "Which technology is designed for very short-range (centimeters) two-way communication, often used for payments or data exchange by tapping devices?",
-      "options": [
-        {"key": "a", "text": "LoRa"},
-        {"key": "b", "text": "Sigfox"},
-        {"key": "c", "text": "NFC"},
-        {"key": "d", "text": "WiFi HaLow"}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 5 of `document(2).pdf` describes NFC with a range of \"10 cm max\" and \"two way communication,\" suitable for tapping."
-    },
-    {
-      "id": 100,
-      "section": "Mixed Concepts & Advanced Topics (Based on all slides)",
-      "question_text": "The primary motivation for developing Low Power Wide Area Networks (LPWANs) was to address the need for IoT applications that require:",
-      "options": [
-        {"key": "a", "text": "High-definition video streaming over long distances."},
-        {"key": "b", "text": "Very low latency for real-time control."},
-        {"key": "c", "text": "Long battery life, wide coverage, and support for a massive number of low-throughput devices."},
-        {"key": "d", "text": "Extremely high security for financial transactions."}
-      ],
-      "correct_answer_letter": "c",
-      "explanation": "Page 18 of `document(2).pdf` describes LPWAN characteristics like \"Low power consumption (nano-amps) → battery life in the order of 10 years,\" \"Ubiquitous availability,\" and \"Data transfer optimized for small and intermittent blocks of data.\" This aligns with supporting many low-throughput devices over wide areas with long battery life."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "According to the course syllabus, which of the following is NOT listed as a primary course objective?",
+    "options": [
+      {"key": "a", "text": "IoT prototyping"},
+      {"key": "b", "text": "IoT Data communication buses"},
+      {"key": "c", "text": "Advanced AI algorithms for IoT data"},
+      {"key": "d", "text": "IoT power management"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The course objectives listed cover IoT prototyping, understanding sensors and actuators, IoT security, data communication buses, wireless networks, and power management. While data analysis is part of IoT, the explicit study of 'Advanced AI algorithms for IoT data' is not mentioned as a primary objective. Source: Page 4 of `document.pdf`."
+  },
+  {
+    "id": 2,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "When was the term \"The Internet of Things\" first mentioned in an ITU Internet Report series?",
+    "options": [
+      {"key": "a", "text": "1990"},
+      {"key": "b", "text": "1997"},
+      {"key": "c", "text": "2005"},
+      {"key": "d", "text": "2008"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The historical overview of IoT indicates that 'The Internet of Things' was the title of the seventh report in the ITU Internet Reports series, which was originally launched in 1997. Source: Page 6 of `document.pdf`."
+  },
+  {
+    "id": 3,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "Which organization was founded at MIT in 1999 related to IoT development?",
+    "options": [
+      {"key": "a", "text": "EPC Global"},
+      {"key": "b", "text": "WSIS"},
+      {"key": "c", "text": "Auto-ID Center"},
+      {"key": "d", "text": "5G PPP"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The timeline of IoT milestones clearly states that the Auto-ID Center, a significant entity in early IoT development focusing on RFID and networked objects, was founded at MIT in 1999. EPC Global was founded later, in 2003. Source: Page 6 of `document.pdf`."
+  },
+  {
+    "id": 4,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "The evolution of connectivity described as \"From any time, any place connectivity for anyone, we will now have connectivity for anything!\" primarily emphasizes the expansion towards:",
+    "options": [
+      {"key": "a", "text": "Human to Human (H2H) communication"},
+      {"key": "b", "text": "Human to Thing (H2T) communication"},
+      {"key": "c", "text": "Thing to Thing (T2T) communication"},
+      {"key": "d", "text": "Enhanced PC-based communication"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The diagram illustrating 'Any TIME connection', 'Any PLACE connection', and 'Any THING connection' shows a progression. The 'Any THING connection' culminates in 'Thing to Thing (T2T)' communication, representing the expansion of connectivity to inanimate objects communicating amongst themselves. Source: Page 7 of `document.pdf`."
+  },
+  {
+    "id": 5,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "What are the two key characteristics defining a \"smart\" object in the context of IoT?",
+    "options": [
+      {"key": "a", "text": "Small and cheap"},
+      {"key": "b", "text": "Intelligent & connected"},
+      {"key": "c", "text": "Wireless & battery-powered"},
+      {"key": "d", "text": "Secure & fast"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The definition provided for 'smart' objects within the IoT context is that they are both 'intelligent' (possessing some processing or decision-making capability) and 'connected' (able to communicate, either locally or over the internet). Source: Page 9 of `document.pdf`."
+  },
+  {
+    "id": 6,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "According to IoT Analytics (May 2022), which connectivity type was projected to have the highest CAGR from 2021-2025?",
+    "options": [
+      {"key": "a", "text": "LPWA"},
+      {"key": "b", "text": "Wireless Local Area Networks (WLAN)"},
+      {"key": "c", "text": "5G IoT"},
+      {"key": "d", "text": "Legacy Cellular (2G/3G/4G)"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The chart from IoT Analytics forecasts the Compound Annual Growth Rate (CAGR) for various IoT connectivity types. 5G IoT is shown with a projected CAGR of 159% for the period 2021-2025, which is the highest among the listed options. Source: Page 10 of `document.pdf`."
+  },
+  {
+    "id": 7,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "In the Gartner Hype Cycle for Emerging Technologies presented, \"Smart Dust\" is shown near the:",
+    "options": [
+      {"key": "a", "text": "Peak of Inflated Expectations"},
+      {"key": "b", "text": "Trough of Disillusionment"},
+      {"key": "c", "text": "Slope of Enlightenment"},
+      {"key": "d", "text": "Innovation Trigger"}
+    ],
+    "correct_answer_letter": "d",
+    "explanation": "The Gartner Hype Cycle visualizes the maturity and adoption of technologies. 'Smart Dust' is positioned at the very beginning of the cycle, known as the 'Innovation Trigger' phase, indicating it's a nascent technology concept with early R&D. Source: Page 11 of `document.pdf` (left image)."
+  },
+  {
+    "id": 8,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "Which layer in the IoT Reference Architecture is primarily responsible for MQTT/HTTP/XMPP/COAP transports?",
+    "options": [
+      {"key": "a", "text": "Devices Manager"},
+      {"key": "b", "text": "Aggregation / Bus Layer"},
+      {"key": "c", "text": "Communications"},
+      {"key": "d", "text": "Event Processing and Analytics"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The IoT Reference Architecture slide breaks down the system into layers. The 'Communications' layer is explicitly listed as handling relevant transport protocols such as MQTT, HTTP, XMPP, and COAP, which are used for data exchange between devices and higher layers. Source: Page 13 of `document.pdf`."
+  },
+  {
+    "id": 9,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "An Arduino with an Arduino Ethernet connection is an example of what type of device layer connection?",
+    "options": [
+      {"key": "a", "text": "Indirectly connected device"},
+      {"key": "b", "text": "Directly connected device"},
+      {"key": "c", "text": "Gateway connected device"},
+      {"key": "d", "text": "Cloud-emulated device"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The slides categorize device connections. An Arduino board equipped with an Ethernet shield or connection that allows it to connect directly to an IP network (and thus potentially the internet) is classified as a 'directly connected device'. Source: Page 14 of `document.pdf`."
+  },
+  {
+    "id": 10,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "ZigBee devices connected via a ZigBee gateway are an example of:",
+    "options": [
+      {"key": "a", "text": "Directly connected devices"},
+      {"key": "b", "text": "Indirectly connected devices"},
+      {"key": "c", "text": "Non-IP devices"},
+      {"key": "d", "text": "Legacy network devices"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "ZigBee devices often use their own non-IP based protocol for local communication. To connect to the internet or an IP network, they typically communicate through a gateway. This setup, where the end device doesn't connect directly to the internet but via an intermediary, is an example of an 'indirectly connected device'. Source: Page 14 of `document.pdf`."
+  },
+  {
+    "id": 11,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "In the \"IoT, Digitize & connect\" model (CISCO, IBM, DELL), what is the primary role of the \"CLOUD\" layer?",
+    "options": [
+      {"key": "a", "text": "Real-time action and process control"},
+      {"key": "b", "text": "Data capture from sensors"},
+      {"key": "c", "text": "Data aggregation, big data analysis, and data fusion"},
+      {"key": "d", "text": "Local data organization and filtering at the edge"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The model presented shows the CLOUD layer as responsible for higher-level data processing tasks. These include aggregating data from various sources, performing big data analytics, fusing data from different sensors or systems, correlating information, and other advanced data treatments. Source: Page 16 of `document.pdf`."
+  },
+  {
+    "id": 12,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "In the Abstract Edge Architecture Model, which component is described as an \"embedded program that runs on or near the IoT device and reports the status of an asset or environment\"?",
+    "options": [
+      {"key": "a", "text": "Sensor"},
+      {"key": "b", "text": "Actuator"},
+      {"key": "c", "text": "Controller"},
+      {"key": "d", "text": "Agent"}
+    ],
+    "correct_answer_letter": "d",
+    "explanation": "The Abstract Edge Architecture Model defines the 'Agent' as an embedded program. Its role is to reside on or close to the IoT device and communicate the status of the monitored asset or its environment to other parts of the system, typically the cloud. Source: Page 17 of `document.pdf`."
+  },
+  {
+    "id": 13,
+    "section": "IoT Fundamentals & Architecture ",
+    "question_text": "In the coffee machine edge architecture example with WiFi long-haul, what does MDB stand for in the context of the controller?",
+    "options": [
+      {"key": "a", "text": "Master Data Bus"},
+      {"key": "b", "text": "Multi-Drop Bus"},
+      {"key": "c", "text": "Machine Diagnostic Bus"},
+      {"key": "d", "text": "Micro-Device Bridge"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The example of a coffee machine's edge architecture specifies that its controller uses interfaces like MDB and DEX. MDB is expanded as 'Multi-Drop Bus', a common serial communication protocol used in vending machines. Source: Page 18 of `document.pdf`."
+  },
+  {
+    "id": 14,
+    "section": "IoT Sensors ",
+    "question_text": "What is the fundamental definition of a sensor provided in the slides?",
+    "options": [
+      {"key": "a", "text": "A device that only measures electrical quantities."},
+      {"key": "b", "text": "A device that transforms a physical quantity into a readable variable."},
+      {"key": "c", "text": "A device that amplifies signals from the environment."},
+      {"key": "d", "text": "A device that stores data from physical stimuli."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The slides define a sensor as a device whose primary function is to detect a physical quantity (like temperature, light, pressure) and convert it into a signal or variable that can be read and interpreted by an observer or an instrument. Source: Page 23 of `document.pdf`."
+  },
+  {
+    "id": 15,
+    "section": "IoT Sensors ",
+    "question_text": "Which of the following is the French term for \"sensor\"?",
+    "options": [
+      {"key": "a", "text": "Détecteur"},
+      {"key": "b", "text": "Transducteur"},
+      {"key": "c", "text": "Capteur"},
+      {"key": "d", "text": "Actionneur"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The slide on sensor terminology explicitly provides the French equivalent for 'sensor' as 'Capteur'. Source: Page 26 of `document.pdf`."
+  },
+  {
+    "id": 16,
+    "section": "IoT Sensors ",
+    "question_text": "A transducer is defined as a device that:",
+    "options": [
+      {"key": "a", "text": "Only converts physical energy to electrical energy."},
+      {"key": "b", "text": "Transfers power from one system to another in the same or different form."},
+      {"key": "c", "text": "Measures only temperature and pressure."},
+      {"key": "d", "text": "Is always a passive component."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "A transducer is broadly defined as a device that converts energy from one form to another. The slides specify that it transfers power from one system to another, and this transfer can result in the same or a different form of energy/power. Sensors are a type of transducer. Source: Page 26 of `document.pdf`."
+  },
+  {
+    "id": 17,
+    "section": "IoT Sensors ",
+    "question_text": "Which of the following is NOT a primary criterion for sensor classification mentioned in the slides?",
+    "options": [
+      {"key": "a", "text": "Primary input quantity"},
+      {"key": "b", "text": "Transduction principles"},
+      {"key": "c", "text": "Cost and availability"},
+      {"key": "d", "text": "Material and production technology"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The slides list four primary criteria for classifying sensors: 1. Primary input quantity (what it measures), 2. Transduction principles (how it converts energy), 3. Material and production technology, and 4. Application. Cost and availability, while practical considerations, are not listed as fundamental classification criteria. Source: Page 28 of `document.pdf`."
+  },
+  {
+    "id": 18,
+    "section": "IoT Sensors ",
+    "question_text": "An optical smoke sensor, which emits light and measures the scattered light, is an example of:",
+    "options": [
+      {"key": "a", "text": "A passive sensor"},
+      {"key": "b", "text": "An active sensor"},
+      {"key": "c", "text": "A chemical sensor"},
+      {"key": "d", "text": "A mechanical sensor"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Active sensors provide their own stimulus (e.g., light, sound waves) and measure the response from the environment. An optical smoke sensor emits a beam of light and detects if smoke particles scatter this light. Since it generates the stimulus (light), it's an active sensor. Passive sensors only react to existing environmental conditions. Source: Page 31 of `document.pdf`."
+  },
+  {
+    "id": 19,
+    "section": "IoT Sensors ",
+    "question_text": "A thermocouple, which generates a voltage based on temperature difference without an external power source for its sensing principle, is an example of:",
+    "options": [
+      {"key": "a", "text": "An active sensor"},
+      {"key": "b", "text": "A passive sensor"},
+      {"key": "c", "text": "A modulator type sensor"},
+      {"key": "d", "text": "A digital output sensor"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Passive sensors generate a signal based on the ambient energy they are exposed to, without needing to provide their own stimulus. A thermocouple generates a voltage due to the Seebeck effect when there's a temperature difference across its junctions, using the thermal energy from the environment. Thus, it's a passive sensor. Source: Page 31 of `document.pdf`."
+  },
+  {
+    "id": 20,
+    "section": "IoT Sensors ",
+    "question_text": "In the sensor classification tree, a sensor whose output energy is given by the input is categorized under \"Energy Contribution\" as a:",
+    "options": [
+      {"key": "a", "text": "Modulator"},
+      {"key": "b", "text": "Generator"},
+      {"key": "c", "text": "Deflection type"},
+      {"key": "d", "text": "Comparison type"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The sensor classification tree shows that under 'Energy Contribution', sensors are divided into 'Modulator' (output energy comes from an external source) and 'Generator'. A 'Generator' type sensor is one where the output energy is directly derived from the input physical quantity being measured (e.g., a solar cell generating electricity from light). Source: Page 32 of `document.pdf`."
+  },
+  {
+    "id": 21,
+    "section": "IoT Sensors ",
+    "question_text": "According to ISO 5725, which term describes the closeness of test results to a reference or true value?",
+    "options": [
+      {"key": "a", "text": "Precision"},
+      {"key": "b", "text": "Repeatability"},
+      {"key": "c", "text": "Trueness (Accuracy)"},
+      {"key": "d", "text": "Resolution"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "ISO 5725 uses 'trueness' and 'precision' to describe measurement accuracy. 'Trueness' specifically refers to how close the average of a set of measurements is to the actual (true or reference) value. This is often what is commonly understood as accuracy. Precision refers to the closeness of repeated measurements to each other. Source: Page 33 of `document.pdf`."
+  },
+  {
+    "id": 22,
+    "section": "IoT Sensors ",
+    "question_text": "If a sensor provides readings that are very close to each other but consistently far from the true value, it has:",
+    "options": [
+      {"key": "a", "text": "High trueness, high precision"},
+      {"key": "b", "text": "High trueness, low precision"},
+      {"key": "c", "text": "Low trueness, high precision"},
+      {"key": "d", "text": "Low trueness, low precision"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "High precision means the readings are tightly clustered (close to each other). Low trueness (or low accuracy) means this cluster of readings is systematically offset from the actual true value. The diagram on the slide illustrates this scenario. Source: Page 33 of `document.pdf`."
+  },
+  {
+    "id": 23,
+    "section": "IoT Sensors ",
+    "question_text": "How can random error in sensor measurements typically be reduced?",
+    "options": [
+      {"key": "a", "text": "By frequent recalibration for systematic errors"},
+      {"key": "b", "text": "By making multiple measurements and averaging"},
+      {"key": "c", "text": "By increasing the sensor's resolution"},
+      {"key": "d", "text": "By changing the sensor's material"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Random errors cause scatter in measurements. Taking multiple readings of the same quantity and averaging them helps to reduce the impact of these random fluctuations, as the errors tend to cancel each other out. The precision of the average improves with the square root of the number of measurements. Recalibration addresses systematic errors. Source: Page 36 & 37 of `document.pdf`."
+  },
+  {
+    "id": 24,
+    "section": "IoT Sensors ",
+    "question_text": "What is \"Resolution\" in the context of a sensor?",
+    "options": [
+      {"key": "a", "text": "The time it takes for the sensor to respond."},
+      {"key": "b", "text": "The smallest increment in signal value the sensor can detect or output."},
+      {"key": "c", "text": "The maximum range of the physical quantity it can measure."},
+      {"key": "d", "text": "The accuracy of the sensor under varying temperature conditions."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Resolution refers to the smallest change in the input physical quantity that causes a detectable change in the sensor's output signal. It defines the fineness of detail the sensor can provide. Source: Page 38 of `document.pdf`."
+  },
+  {
+    "id": 25,
+    "section": "IoT Sensors ",
+    "question_text": "The \"Dead time\" of a sensor refers to:",
+    "options": [
+      {"key": "a", "text": "The total lifespan of the sensor."},
+      {"key": "b", "text": "The time it takes for the sensor to power on."},
+      {"key": "c", "text": "The time after a measurement during which the sensor is materially blocked before a new measurement can be taken."},
+      {"key": "d", "text": "The delay in signal transmission from the sensor to the processing unit."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Dead time is a period immediately following a measurement or stimulus during which a sensor is unable to respond to a new input or take another measurement. This can be due to physical or chemical recovery processes within the sensor. Source: Page 39 of `document.pdf`."
+  },
+  {
+    "id": 26,
+    "section": "IoT Sensors ",
+    "question_text": "What does the \"Range\" of a sensor typically specify?",
+    "options": [
+      {"key": "a", "text": "The physical distance the sensor can be from the object being measured."},
+      {"key": "b", "text": "The valid measurement interval of the physical quantity within the proposed accuracy."},
+      {"key": "c", "text": "The number of different physical quantities the sensor can measure."},
+      {"key": "d", "text": "The wireless communication range of the sensor."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The range of a sensor defines the limits of the physical quantity it is designed to measure, from a minimum to a maximum value, while maintaining its specified accuracy and other performance characteristics. Source: Page 42 of `document.pdf`."
+  },
+  {
+    "id": 27,
+    "section": "IoT Sensors ",
+    "question_text": "The process of finding a mathematical model for the sensor's transfer function and quantifying its predictability strength is known as:",
+    "options": [
+      {"key": "a", "text": "Saturation"},
+      {"key": "b", "text": "Attenuation"},
+      {"key": "c", "text": "Calibration"},
+      {"key": "d", "text": "Modulation"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Calibration is the process of comparing a sensor's output against known reference values of the input quantity. This allows for the determination of the sensor's transfer function (the relationship between input and output) and the quantification of its performance characteristics like accuracy and precision. Source: Page 43 of `document.pdf`."
+  },
+  {
+    "id": 28,
+    "section": "IoT Sensors ",
+    "question_text": "In a typical sensor signal processing scheme to connect to a computer, what is the role of an ADC?",
+    "options": [
+      {"key": "a", "text": "To convert the physical quantity directly into a digital value."},
+      {"key": "b", "text": "To convert an electrical tension (analog voltage) into a digital value."},
+      {"key": "c", "text": "To amplify the sensor's raw output."},
+      {"key": "d", "text": "To filter noise from the sensor's signal."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Many sensors produce an analog electrical signal (like a varying voltage or current) proportional to the physical quantity measured. An Analog-to-Digital Converter (ADC) is essential in the signal processing chain to convert this continuous analog signal into a discrete digital value that a computer or microcontroller can process. Source: Page 44 of `document.pdf`."
+  },
+  {
+    "id": 29,
+    "section": "IoT Power Management ",
+    "question_text": "What is the \"IoT dilemma\" regarding power autonomy as described in the slides?",
+    "options": [
+      {"key": "a", "text": "Choosing between high processing power and low cost."},
+      {"key": "b", "text": "Balancing the need for long battery life (larger battery) versus small device size (smaller battery)."},
+      {"key": "c", "text": "Deciding between wired power and wireless charging."},
+      {"key": "d", "text": "Optimizing for either high data rates or low latency."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The IoT dilemma highlights the conflicting design goals for power: users desire long operational times (suggesting a larger battery), but also small, unobtrusive devices (requiring a smaller battery). This creates a trade-off between battery capacity/lifetime and physical device size/form factor. Source: Page 3 of `document(1).pdf`."
+  },
+  {
+    "id": 30,
+    "section": "IoT Power Management ",
+    "question_text": "Which of the following is a primary strategy for achieving power autonomy in IoT devices?",
+    "options": [
+      {"key": "a", "text": "Increasing the clock speed of the processor."},
+      {"key": "b", "text": "Using high-brightness LCD screens for better visibility."},
+      {"key": "c", "text": "Energy harvesting."},
+      {"key": "d", "text": "Employing complex encryption algorithms for all data."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "To achieve power autonomy and extend the operational life of IoT devices, especially those that are difficult to recharge, energy harvesting is a key strategy. This involves capturing energy from ambient sources (like light, motion, heat) to power the device or supplement its battery. Reducing power consumption is another key strategy, but options A, B, and D generally increase consumption. Source: Page 4 of `document(1).pdf`."
+  },
+  {
+    "id": 31,
+    "section": "IoT Power Management ",
+    "question_text": "If a battery has a nominal capacity of 2000mAh and a voltage of 3.7V, what is its energy capacity in Wh (Watt-hours)?",
+    "options": [
+      {"key": "a", "text": "2.0 Wh"},
+      {"key": "b", "text": "3.7 Wh"},
+      {"key": "c", "text": "7.4 Wh"},
+      {"key": "d", "text": "540.5 Wh"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Energy stored in a battery (in Watt-hours) is calculated by multiplying its capacity (in Ampere-hours) by its nominal voltage (in Volts). First, convert mAh to Ah: 2000mAh = 2Ah. Then, Energy = 2Ah * 3.7V = 7.4Wh. Source: Concept from page 5 & 6 of `document(1).pdf`."
+  },
+  {
+    "id": 32,
+    "section": "IoT Power Management ",
+    "question_text": "According to the smartphone power breakdown (A. Carroll et al., USENIX ATC 2010), which component consumes the largest percentage of power?",
+    "options": [
+      {"key": "a", "text": "CPU"},
+      {"key": "b", "text": "GSM Radio"},
+      {"key": "c", "text": "LCD Backlight"},
+      {"key": "d", "text": "WiFi"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The provided pie chart illustrating the power breakdown of a smartphone clearly shows that the LCD Backlight accounts for the largest portion of power consumption, at 60%. Source: Page 8 of `document(1).pdf`."
+  },
+  {
+    "id": 33,
+    "section": "IoT Power Management ",
+    "question_text": "In the power breakdown for a mobile phone in a suspended state, the aggregate power consumed is approximately:",
+    "options": [
+      {"key": "a", "text": "10 mW"},
+      {"key": "b", "text": "68.6 mW"},
+      {"key": "c", "text": "268.8 mW"},
+      {"key": "d", "text": "500 mW"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Figure 2 in the slides specifically details the power breakdown when a mobile phone is in a suspended state. The caption for this figure states that the aggregate (total) power consumed in this state is 68.6 mW. Source: Page 10 of `document(1).pdf`."
+  },
+  {
+    "id": 34,
+    "section": "IoT Power Management ",
+    "question_text": "Which screen technology is mentioned as needing backlight illumination?",
+    "options": [
+      {"key": "a", "text": "OLED"},
+      {"key": "b", "text": "Electronic Ink"},
+      {"key": "c", "text": "LCD"},
+      {"key": "d", "text": "AMOLED"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The slides differentiate screen technologies based on their power consumption characteristics. It is explicitly stated that LCD (Liquid Crystal Display) screens require a backlight to illuminate the pixels, whereas OLED (Organic Light Emitting Diode) pixels emit their own light. Electronic Ink is also a different low-power technology. Source: Page 12 of `document(1).pdf`."
+  },
+  {
+    "id": 35,
+    "section": "IoT Power Management ",
+    "question_text": "\"Undervolting\" is a technique to reduce processor power by primarily targeting:",
+    "options": [
+      {"key": "a", "text": "Switching loss (proportional to V^2) and Leakage loss (proportional to V)."},
+      {"key": "b", "text": "Only leakage loss."},
+      {"key": "c", "text": "Only switching loss."},
+      {"key": "d", "text": "Heat dissipation without affecting power consumption."}
+    ],
+    "correct_answer_letter": "a",
+    "explanation": "Processor power dissipation has two main components: switching loss (power used to change gate states, proportional to voltage squared) and leakage loss (static power to maintain gate states, proportional to voltage). Undervolting, or reducing the operating voltage, directly reduces both these types of losses, thus saving power. Source: Page 13 of `document(1).pdf`."
+  },
+  {
+    "id": 36,
+    "section": "IoT Power Management ",
+    "question_text": "What does DVFS stand for in the context of reducing processor power?",
+    "options": [
+      {"key": "a", "text": "Dynamic Voltage Frequency Saturation"},
+      {"key": "b", "text": "Direct Voltage Fluctuation System"},
+      {"key": "c", "text": "Dynamic Voltage Frequency Scaling"},
+      {"key": "d", "text": "Device Verification and Fault System"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "DVFS is a power management technique where the voltage and frequency of a microprocessor are dynamically adjusted to match the performance requirements of the current task. Reducing voltage and frequency when high performance is not needed significantly reduces power consumption. The slides define DVFS as Dynamic Voltage Frequency Scaling. Source: Page 14 of `document(1).pdf`."
+  },
+  {
+    "id": 37,
+    "section": "IoT Power Management ",
+    "question_text": "The ADXL362 accelerometer's \"wake-up mode (motion triggered wake-up)\" consumes approximately:",
+    "options": [
+      {"key": "a", "text": "0.01 µA"},
+      {"key": "b", "text": "0.27 µA"},
+      {"key": "c", "text": "1.8 µA"},
+      {"key": "d", "text": "13 µA"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The table detailing the power modes of the ADXL362 low-power MEMS accelerometer lists several states. The 'wake-up mode (motion triggered wake-up)' is specified to consume 0.27 µA, allowing the device to remain in a very low power state until motion is detected. Source: Page 15 of `document(1).pdf`."
+  },
+  {
+    "id": 38,
+    "section": "IoT Power Management ",
+    "question_text": "Which of the following wireless technologies generally has the highest power consumption (Tx) according to the comparison table?",
+    "options": [
+      {"key": "a", "text": "BLE"},
+      {"key": "b", "text": "Wi-Fi"},
+      {"key": "c", "text": "Cellular (2G/3G/LTE)"},
+      {"key": "d", "text": "ZigBee"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The comparison table for wireless IoT connectivity technologies shows the transmit (Tx) power consumption for Cellular (2G/3G/LTE) as 700 mA, Wi-Fi as 300 mA, and BLE as 18 mA. Cellular communication typically requires more power for longer range transmission. Source: Page 18 of `document(1).pdf`."
+  },
+  {
+    "id": 39,
+    "section": "IoT Power Management ",
+    "question_text": "What is a key advantage of solid-state batteries over traditional Li-ion batteries mentioned in the slides?",
+    "options": [
+      {"key": "a", "text": "Lower cost for large batteries currently."},
+      {"key": "b", "text": "Lower energy density."},
+      {"key": "c", "text": "Higher energy density and no sparking hazard."},
+      {"key": "d", "text": "Wider availability in consumer devices."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Solid-state batteries are presented as an evolution in battery technology. Key advantages highlighted include higher energy density (potentially double that of Li-ion) and improved safety due to the absence of flammable liquid electrolytes, hence 'no sparking hazard'. While promising, they are noted as expensive for large batteries at the moment. Source: Page 19 of `document(1).pdf`."
+  },
+  {
+    "id": 40,
+    "section": "IoT Power Management ",
+    "question_text": "Energy harvesting refers to:",
+    "options": [
+      {"key": "a", "text": "Storing excess energy from the grid."},
+      {"key": "b", "text": "The conversion of ambient energy into electric energy."},
+      {"key": "c", "text": "Improving battery charging efficiency."},
+      {"key": "d", "text": "Using non-rechargeable high-capacity batteries."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Energy harvesting is defined as the process of capturing and converting energy from the surrounding environment (ambient sources like light, heat, motion, RF waves) into usable electrical energy to power electronic devices, particularly low-power IoT devices. Source: Page 20 of `document(1).pdf`."
+  },
+  {
+    "id": 41,
+    "section": "IoT Power Management ",
+    "question_text": "Which energy harvesting source typically provides the highest harvested power ($mW/cm^2$) in an outdoor environment?",
+    "options": [
+      {"key": "a", "text": "Light (Solar)"},
+      {"key": "b", "text": "Mechanical vibration (piezoelectric from human)"},
+      {"key": "c", "text": "Thermal (human)"},
+      {"key": "d", "text": "Radio waves (background)"}
+    ],
+    "correct_answer_letter": "a",
+    "explanation": "The comparison table of harvesting sources shows that outdoor light (solar) can provide approximately 10 mW/cm², which is significantly higher than the power harvested from human mechanical vibration (4 µW/cm²), human thermal energy (25 µW/cm²), or background radio waves (0.1 µW/cm²). Source: Page 22 of `document(1).pdf`."
+  },
+  {
+    "id": 42,
+    "section": "IoT Power Management ",
+    "question_text": "According to the comparison table, what is a typical harvesting efficiency for light (solar) energy?",
+    "options": [
+      {"key": "a", "text": "0.1-3%"},
+      {"key": "b", "text": "10-25%"},
+      {"key": "c", "text": "25-50%"},
+      {"key": "d", "text": "Over 50%"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The harvesting efficiency indicates how much of the available ambient energy can be converted into electrical energy. For light (solar) energy harvesting, the table specifies a typical efficiency range of 10-25%. Source: Page 22 of `document(1).pdf`."
+  },
+  {
+    "id": 43,
+    "section": "IoT Power Management ",
+    "question_text": "Which principle is used by a rectenna for energy harvesting?",
+    "options": [
+      {"key": "a", "text": "Seebeck effect"},
+      {"key": "b", "text": "Piezoelectric effect"},
+      {"key": "c", "text": "Converting electromagnetic wave energy into direct current"},
+      {"key": "d", "text": "Electromagnetic induction from vibrations"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "A rectenna (rectifying antenna) is a device used for harvesting energy from electromagnetic waves (like radio waves). It combines an antenna to capture the wave energy and a rectifier (diode) to convert the alternating current (AC) induced by the waves into direct current (DC) power. Source: Page 21 of `document(1).pdf`."
+  },
+  {
+    "id": 44,
+    "section": "IoT Power Management ",
+    "question_text": "In the power budget diagram for an energy-harvesting IoT system, what is the role of the \"Wake-up receiver\"?",
+    "options": [
+      {"key": "a", "text": "To generate power from ambient RF signals."},
+      {"key": "b", "text": "To allow the main MCU to remain in a deep sleep state until an external trigger is received."},
+      {"key": "c", "text": "To manage the charging of the energy storage unit."},
+      {"key": "d", "text": "To convert harvested energy into a usable voltage."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "A wake-up receiver is an ultra-low-power component that continuously listens for a specific external signal (e.g., a radio packet). When this signal is detected, it wakes up the main microcontroller (MCU) and other system components from a deep sleep state. This allows the bulk of the system to conserve significant energy by remaining off most of the time. Source: Page 25 of `document(1).pdf` (diagram context)."
+  },
+  {
+    "id": 45,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Which of the following is NOT listed as a typical \"IoT specifity\" demanding specific network characteristics?",
+    "options": [
+      {"key": "a", "text": "Highly autonomous operation"},
+      {"key": "b", "text": "Small and intermittent amount of data"},
+      {"key": "c", "text": "High bandwidth requirements for video streaming"},
+      {"key": "d", "text": "Small device size"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "IoT devices are often characterized by sending small and intermittent amounts of data, and networks for them can often tolerate low bandwidth and high latency. High bandwidth requirements, such as for video streaming, are generally not typical specificities for the majority of constrained IoT devices and their specialized networks. Source: Page 3 of `document(2).pdf`."
+  },
+  {
+    "id": 46,
+    "section": "IoT Wireless Networks ",
+    "question_text": "NFC (Near Field Communication) is categorized under which type of wireless network range?",
+    "options": [
+      {"key": "a", "text": "Wireless Personal Area Network (WPAN)"},
+      {"key": "b", "text": "Wireless Local Area Network (WLAN)"},
+      {"key": "c", "text": "Proximity (Contact range 0-10 meter)"},
+      {"key": "d", "text": "Low Power Wide Area Network (LPWAN)"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The classification of IoT wireless networks by range shows NFC under the 'Proximity' category, which is defined by a very short contact range, typically 0-10 centimeters (though the slide generalizes to 0-10 meters for the category, NFC itself is much shorter). Source: Page 4 & 5 of `document(2).pdf`."
+  },
+  {
+    "id": 47,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is a key difference between NFC and HF RFID regarding communication direction?",
+    "options": [
+      {"key": "a", "text": "NFC is one-way, HF RFID is two-way."},
+      {"key": "b", "text": "NFC is two-way, HF RFID is typically one-way."},
+      {"key": "c", "text": "Both are strictly one-way."},
+      {"key": "d", "text": "Both are always two-way."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "NFC (Near Field Communication) supports two-way communication, allowing devices to both send and receive information. HF (High Frequency) RFID, as described in the context of proximity technologies, is typically characterized by one-way communication (tag to reader). Source: Page 5 of `document(2).pdf`."
+  },
+  {
+    "id": 48,
+    "section": "IoT Wireless Networks ",
+    "question_text": "According to the data rate vs. range chart, which technology generally offers the highest data rate?",
+    "options": [
+      {"key": "a", "text": "ZigBee"},
+      {"key": "b", "text": "Bluetooth"},
+      {"key": "c", "text": "Wi-Fi"},
+      {"key": "d", "text": "Sigfox"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The comparative chart plotting data rate against range shows Wi-Fi at the top of the data rate scale, capable of reaching up to 1 Gbps. Other technologies like Bluetooth, ZigBee, and Sigfox operate at significantly lower data rates. Source: Page 7 of `document(2).pdf`."
+  },
+  {
+    "id": 49,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is a primary disadvantage of using IP/IPv6 for small data IoT applications?",
+    "options": [
+      {"key": "a", "text": "Lack of scalability for addresses."},
+      {"key": "b", "text": "Inability to address devices directly over the internet."},
+      {"key": "c", "text": "Large overhead (e.g., 40 bytes for TCP)."},
+      {"key": "d", "text": "Lower security compared to proprietary protocols."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "While IP/IPv6 offers advantages like direct addressability and scalability, its standard headers (e.g., 40 bytes for TCP/IP, 40-60 bytes for IPv6 headers alone) introduce significant overhead. This is a disadvantage for many IoT applications that transmit very small amounts of data, as the header can be larger than the payload itself, leading to inefficiency. Source: Page 8 & 15 of `document(2).pdf`."
+  },
+  {
+    "id": 50,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Which of the following is NOT listed as an example of a LoWPAN technology?",
+    "options": [
+      {"key": "a", "text": "Bluetooth Low Energy (BLE)"},
+      {"key": "b", "text": "ZigBee"},
+      {"key": "c", "text": "Sigfox"},
+      {"key": "d", "text": "WiFi HaLow"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "LoWPAN (Low-Power Wireless Personal Area Network) technologies are designed for short-range (10-100m) communication. The slides list Bluetooth Low Energy (BLE), ZigBee, 6LoWPAN (which includes Z-Wave), and WiFi HaLow as examples. Sigfox is an LPWAN (Low-Power Wide Area Network) technology, characterized by much longer range. Source: Page 9 & 18 of `document(2).pdf`."
+  },
+  {
+    "id": 51,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Bluetooth 4.0 is also known as:",
+    "options": [
+      {"key": "a", "text": "Bluetooth Classic"},
+      {"key": "b", "text": "Bluetooth High Speed"},
+      {"key": "c", "text": "Bluetooth Low Energy (BLE) or Bluetooth Smart"},
+      {"key": "d", "text": "Bluetooth Mesh"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Bluetooth 4.0 introduced a low energy variant. The slides explicitly state that Bluetooth 4.0 is also referred to as Bluetooth Low Energy (BLE), BTLE, or Bluetooth Smart. Source: Page 10 of `document(2).pdf`."
+  },
+  {
+    "id": 52,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is a significant advantage of Bluetooth 4.0 (BLE) over Bluetooth 3.0 regarding power consumption?",
+    "options": [
+      {"key": "a", "text": "BT 4.0 consumes roughly the same power."},
+      {"key": "b", "text": "BT 4.0 consumes 2 times less power."},
+      {"key": "c", "text": "BT 4.0 consumes 10 times (or 0.01 to 0.5 of BT3.0) lower power."},
+      {"key": "d", "text": "BT 4.0 consumes more power due to enhanced features."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "A primary design goal of Bluetooth 4.0 (BLE/Smart) was drastically reduced power consumption compared to Bluetooth Classic (like BT 3.0). The slides mention it offers 10 times lower power consumption, and the comparison table indicates its power consumption is 0.01 to 0.5 times that of BT 3.0. Source: Page 10 & 12 of `document(2).pdf`."
+  },
+  {
+    "id": 53,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is the typical range of Bluetooth Smart (BLE)?",
+    "options": [
+      {"key": "a", "text": "1m"},
+      {"key": "b", "text": "10m"},
+      {"key": "c", "text": "50m"},
+      {"key": "d", "text": "100m"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The comparison table between BT 3.0 and BT Smart (BLE) specifies the range for BT Smart as 10 meters. While Bluetooth technology, in general, can have varying ranges, this specific value is given for the low energy variant. Source: Page 12 of `document(2).pdf`."
+  },
+  {
+    "id": 54,
+    "section": "IoT Wireless Networks ",
+    "question_text": "ZigBee is based on which IEEE standard?",
+    "options": [
+      {"key": "a", "text": "IEEE 802.11"},
+      {"key": "b", "text": "IEEE 802.15.1"},
+      {"key": "c", "text": "IEEE 802.15.4"},
+      {"key": "d", "text": "IEEE 802.3"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "ZigBee is a wireless communication protocol built upon the physical and MAC layers defined by the IEEE 802.15.4 standard, which specifies low-rate wireless personal area networks (LR-WPANs). Source: Page 13 of `document(2).pdf`."
+  },
+  {
+    "id": 55,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is the network topology primarily associated with ZigBee?",
+    "options": [
+      {"key": "a", "text": "Star"},
+      {"key": "b", "text": "Piconet"},
+      {"key": "c", "text": "Mesh"},
+      {"key": "d", "text": "Point-to-point only"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "ZigBee is well-known for its support of mesh networking topology. In a mesh network, devices can relay data for other devices, extending the network's range and improving its reliability. The comparison table explicitly lists 'Mesh' as the topology for ZigBee. Source: Page 14 of `document(2).pdf`."
+  },
+  {
+    "id": 56,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is the main purpose of header compression in 6LoWPAN?",
+    "options": [
+      {"key": "a", "text": "To increase the data transmission rate."},
+      {"key": "b", "text": "To reduce data overhead for small packet transmissions."},
+      {"key": "c", "text": "To enhance security by obscuring header information."},
+      {"key": "d", "text": "To allow compatibility with older IPv4 networks."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks) is designed to enable IPv6 on constrained devices. Standard IPv6 headers are large (40 bytes). For small IoT data packets, this header size is inefficient. 6LoWPAN employs header compression techniques to significantly reduce this overhead, making IPv6 more suitable for low-power, low-bandwidth networks. Source: Page 15 of `document(2).pdf`."
+  },
+  {
+    "id": 57,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Which of the following is a 6LoWPAN solution?",
+    "options": [
+      {"key": "a", "text": "Classic Bluetooth"},
+      {"key": "b", "text": "Standard Wi-Fi (802.11n)"},
+      {"key": "c", "text": "Thread"},
+      {"key": "d", "text": "NFC"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The slides list several solutions based on 6LoWPAN principles. Among the options, Thread is explicitly mentioned as a 6LoWPAN solution, alongside Z-Wave, ZigBee IP, and Bluetooth IP. Source: Page 15 of `document(2).pdf`."
+  },
+  {
+    "id": 58,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Wi-Fi HaLow is based on which IEEE specification?",
+    "options": [
+      {"key": "a", "text": "IEEE 802.11ac"},
+      {"key": "b", "text": "IEEE 802.11af"},
+      {"key": "c", "text": "IEEE 802.11ah"},
+      {"key": "d", "text": "IEEE 802.11p"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Wi-Fi HaLow is the designation for Wi-Fi technology based on the IEEE 802.11ah standard. This standard is designed for lower power consumption and longer range operation in the sub-1 GHz frequency bands, making it suitable for IoT applications. Source: Page 16 of `document(2).pdf`."
+  },
+  {
+    "id": 59,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is the primary advantage of Wi-Fi HaLow using the 900MHz spectrum compared to 2.4GHz/5GHz Wi-Fi?",
+    "options": [
+      {"key": "a", "text": "Higher data rates."},
+      {"key": "b", "text": "Lower cost of chipsets."},
+      {"key": "c", "text": "Better penetration through walls and increased range."},
+      {"key": "d", "text": "Simpler security implementation."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Operating in the sub-1 GHz spectrum (like 900MHz) gives Wi-Fi HaLow inherent physical advantages over traditional Wi-Fi in the 2.4GHz and 5GHz bands. Lower frequencies experience less attenuation and diffract more easily, leading to better penetration through obstacles like walls and an increased overall communication range (up to 1000m is mentioned). Source: Page 16 of `document(2).pdf`."
+  },
+  {
+    "id": 60,
+    "section": "IoT Wireless Networks ",
+    "question_text": "LPWAN technologies are primarily characterized by:",
+    "options": [
+      {"key": "a", "text": "High data rates and short range."},
+      {"key": "b", "text": "Low power consumption and long range."},
+      {"key": "c", "text": "High bandwidth and low latency."},
+      {"key": "d", "text": "Complex mesh networking and high device cost."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "LPWAN (Low-Power Wide Area Network) technologies are specifically designed to meet the needs of IoT applications that require long-range communication, extended battery life (achieved through very low power consumption), and often support for a large number of devices transmitting small amounts of data. Source: Page 18 of `document(2).pdf`."
+  },
+  {
+    "id": 61,
+    "section": "IoT Wireless Networks ",
+    "question_text": "LoRa and SigFox operate in which type of spectrum?",
+    "options": [
+      {"key": "a", "text": "Licensed spectrum"},
+      {"key": "b", "text": "Unlicensed spectrum"},
+      {"key": "c", "text": "Shared spectrum (like CBRS)"},
+      {"key": "d", "text": "Military spectrum"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "LoRa and SigFox are prominent LPWAN technologies that operate in unlicensed radio frequency bands (e.g., ISM bands like 868 MHz in Europe, 915 MHz in North America). This allows for more flexible and often lower-cost deployments compared to technologies requiring licensed spectrum. Source: Page 19 & 20 of `document(2).pdf`."
+  },
+  {
+    "id": 62,
+    "section": "IoT Wireless Networks ",
+    "question_text": "NB-IoT and LTE-M are examples of LPWAN technologies that operate in:",
+    "options": [
+      {"key": "a", "text": "Unlicensed spectrum"},
+      {"key": "b", "text": "Licensed spectrum"},
+      {"key": "c", "text": "TV White Space"},
+      {"key": "d", "text": "ISM bands exclusively"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "NB-IoT (Narrowband IoT) and LTE-M (LTE Machine Type Communication) are LPWAN standards developed by 3GPP to operate within licensed cellular spectrum. This allows mobile network operators to leverage their existing infrastructure and offer IoT connectivity with carrier-grade reliability and security. Source: Page 19 & 21 of `document(2).pdf`."
+  },
+  {
+    "id": 63,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is a stated advantage of LPWA technologies in licensed spectrum according to operators?",
+    "options": [
+      {"key": "a", "text": "Lower deployment cost than unlicensed."},
+      {"key": "b", "text": "No need for standardization."},
+      {"key": "c", "text": "Better capacity, scalability, and security."},
+      {"key": "d", "text": "Open source hardware and software."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Mobile network operators prefer licensed spectrum LPWA technologies due to perceived advantages over unlicensed options. These include better management of capacity, improved scalability to support a massive number of devices, enhanced security features inherent in cellular networks, and fewer regulatory constraints compared to the often-crowded unlicensed bands. Source: Page 21 of `document(2).pdf`."
+  },
+  {
+    "id": 64,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is the typical network topology of a LoRaWAN network?",
+    "options": [
+      {"key": "a", "text": "Mesh"},
+      {"key": "b", "text": "Star (End devices to Gateways)"},
+      {"key": "c", "text": "Ring"},
+      {"key": "d", "text": "Bus"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "LoRaWAN (Long Range Wide Area Network) typically employs a star-of-stars topology. End devices communicate directly with one or more gateways. These gateways then relay messages to a central network server. This is distinct from a mesh topology where end devices can relay messages for each other. Source: Page 23 of `document(2).pdf` (diagram)."
+  },
+  {
+    "id": 65,
+    "section": "IoT Wireless Networks ",
+    "question_text": "LoRaWAN provides security through:",
+    "options": [
+      {"key": "a", "text": "Physical layer encryption only."},
+      {"key": "b", "text": "Application layer user-defined passwords."},
+      {"key": "c", "text": "AES-128 encryption (e.g., NWKSKEY, APPSKEY)."},
+      {"key": "d", "text": "No inherent security features."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "LoRaWAN incorporates multiple layers of security. This includes AES-128 encryption for both the network layer (using a Network Session Key - NWKSKEY) to protect data integrity and authenticity between the device and network server, and for the application layer (using an Application Session Key - APPSKEY) to ensure end-to-end encryption of the payload between the device and the application server. Source: Page 23 of `document(2).pdf` (diagram) & Page 22 mentions 'secure bi-directional'."
+  },
+  {
+    "id": 66,
+    "section": "IoT Wireless Networks ",
+    "question_text": "What is a significant limitation of Sigfox regarding data transmission?",
+    "options": [
+      {"key": "a", "text": "Unlimited data packets per day."},
+      {"key": "b", "text": "Very high data rate (Mbps)."},
+      {"key": "c", "text": "Maximum of 140 data packets per day, each with a small payload (e.g., 12 bytes)."},
+      {"key": "d", "text": "Requires constant connection to the gateway."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Sigfox is designed for ultra-low throughput applications. It imposes strict limitations on data transmission: a device can send a maximum of 140 uplink messages per day, and each message has a very small payload size (maximum 12 bytes for uplink). This makes it suitable for sending infrequent, small status updates. Source: Page 25 of `document(2).pdf`."
+  },
+  {
+    "id": 67,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Comparing LoRa and Sigfox, which statement is generally true according to the slides?",
+    "options": [
+      {"key": "a", "text": "Sigfox has better specifications for data throughput."},
+      {"key": "b", "text": "LoRa offers a clearer, more established business model for rapid rollout."},
+      {"key": "c", "text": "LoRa generally offers longer battery life for higher data throughput and free access to the internet (via own gateways)."},
+      {"key": "d", "text": "Sigfox is open source, while LoRa is proprietary."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The comparison slide indicates that LoRa has 'better specs', including potentially longer battery life for higher data throughput. It also mentions 'free access to internet' for LoRa, which often refers to the ability to set up private LoRaWAN networks with privately owned gateways, unlike Sigfox's operator-centric model. Sigfox is noted as being more advanced in terms of hardware/software and having a clear business model, facilitating faster rollout. Source: Page 28 of `document(2).pdf`."
+  },
+  {
+    "id": 68,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Which licensed frequency band solution is noted as extending the existing GSM network and being easy to deploy?",
+    "options": [
+      {"key": "a", "text": "LTE-M"},
+      {"key": "b", "text": "EC-GSM (Extended Coverage GSM)"},
+      {"key": "c", "text": "NB-IoT"},
+      {"key": "d", "text": "5G New Radio"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "EC-GSM-IoT (Extended Coverage GSM for IoT) is designed as an upgrade to existing GSM (2G) networks, allowing operators to support IoT devices with improved coverage and power efficiency. Its ability to leverage existing GSM infrastructure makes it relatively easy to deploy. Source: Page 29 of `document(2).pdf`."
+  },
+  {
+    "id": 69,
+    "section": "IoT Wireless Networks ",
+    "question_text": "NB-IoT is characterized by:",
+    "options": [
+      {"key": "a", "text": "Using existing LTE network infrastructure without modification."},
+      {"key": "b", "text": "A very wide bandwidth (e.g., 20 MHz)."},
+      {"key": "c", "text": "Operating in a narrowband (e.g., 200 kHz or 180kHz) and potentially needing specific network installations."},
+      {"key": "d", "text": "Primarily designed for high mobility applications."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "NB-IoT (Narrowband IoT) is a cellular LPWAN technology that operates in a narrow bandwidth (typically 180 kHz or 200 kHz). While it can be deployed within existing LTE bands, it may require specific network configurations or installations, and is distinct from standard wideband LTE. It is optimized for stationary or low-mobility devices. Source: Page 29 & 30 of `document(2).pdf`."
+  },
+  {
+    "id": 70,
+    "section": "IoT Wireless Networks ",
+    "question_text": "Comparing power consumption (sleep mode) between LoRa and NB-IoT, the slides indicate:",
+    "options": [
+      {"key": "a", "text": "NB-IoT has significantly lower sleep current."},
+      {"key": "b", "text": "LoRa generally has lower sleep current (e.g., 0.1-2uA vs 2-10uA for NB-IoT)."},
+      {"key": "c", "text": "Both have identical sleep current."},
+      {"key": "d", "text": "Sleep mode is not relevant for these technologies."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The power consumption comparison table shows LoRa having a sleep current in the range of 0.1-2µA, while NB-IoT has a sleep current of 2-10µA. This suggests LoRa can achieve even lower power states during sleep, contributing to potentially longer battery life. Source: Page 31 of `document(2).pdf`."
+  },
+  {
+    "id": 71,
+    "section": "IoT Wireless Networks ",
+    "question_text": "The personal forecast for IoT wireless technologies in 10 years suggests a dominance of:",
+    "options": [
+      {"key": "a", "text": "Many fragmented proprietary technologies."},
+      {"key": "b", "text": "Exclusively unlicensed spectrum solutions."},
+      {"key": "c", "text": "A WiFi LowPower version and a 6G licensed spectrum solution including IoT functionality."},
+      {"key": "d", "text": "A complete shift away from IP-based solutions."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The forecast presented suggests a consolidation towards fewer, more versatile technologies. Specifically, it predicts a future where a low-power version of Wi-Fi (for local/urban use with free access) and a future cellular standard (referred to as 6G) that incorporates IoT functionalities will be dominant. Source: Page 32 of `document(2).pdf`."
+  },
+  {
+    "id": 72,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "Which of the following is NOT listed as a reason for the low barrier to entrance for platforms like Arduino and Raspberry Pi?",
+    "options": [
+      {"key": "a", "text": "Simple to start and test"},
+      {"key": "b", "text": "Low financial cost"},
+      {"key": "c", "text": "Built-in AI processing capabilities"},
+      {"key": "d", "text": "Large community for support"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The slides highlight that Arduino and Raspberry Pi are accessible due to their ease of use for starting and testing, low cost (10-30€), and extensive community support. While some advanced IoT applications involve AI, built-in, high-performance AI processing capabilities are not a standard feature of these basic prototyping platforms that contributes to their low entry barrier. Source: Page 34 of `document(2).pdf`."
+  },
+  {
+    "id": 73,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "The Arduino Uno is best described as a:",
+    "options": [
+      {"key": "a", "text": "Full-fledged single-board computer with an OS."},
+      {"key": "b", "text": "Micro-controller board that runs developer code directly upon power-up."},
+      {"key": "c", "text": "High-performance CPU for complex computations."},
+      {"key": "d", "text": "Wireless gateway device."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The Arduino Uno is a microcontroller board. Unlike a single-board computer like Raspberry Pi, it does not run a full operating system. When powered on, it directly executes the compiled code (sketch) uploaded by the developer. Source: Page 35 of `document(2).pdf`."
+  },
+  {
+    "id": 74,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "What is the typical clock speed of the ATmega328 microcontroller on an Arduino Uno?",
+    "options": [
+      {"key": "a", "text": "1.2 GHz"},
+      {"key": "b", "text": "500 MHz"},
+      {"key": "c", "text": "16 MHz"},
+      {"key": "d", "text": "8 MHz"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The specifications for the Arduino Uno list its microcontroller, the ATmega328, as having a clock speed of 16 MHz. Source: Page 35 of `document(2).pdf`."
+  },
+  {
+    "id": 75,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "How much RAM does an Arduino Uno typically have?",
+    "options": [
+      {"key": "a", "text": "1GB"},
+      {"key": "b", "text": "512MB"},
+      {"key": "c", "text": "64kB"},
+      {"key": "d", "text": "2kB"}
+    ],
+    "correct_answer_letter": "d",
+    "explanation": "The Arduino Uno is a resource-constrained device. Its ATmega328 microcontroller has 2 kilobytes (kB) of SRAM (Static Random-Access Memory) for runtime variable storage. Source: Page 35 of `document(2).pdf`."
+  },
+  {
+    "id": 76,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "Which programming language is primarily associated with Arduino, described as a simplified set of C/C++ commands?",
+    "options": [
+      {"key": "a", "text": "Python"},
+      {"key": "b", "text": "Java"},
+      {"key": "c", "text": "Arduino Language"},
+      {"key": "d", "text": "Ruby"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "Arduino boards are programmed using the Arduino programming language, which is based on Wiring. It is described as a simplified set of C/C++ commands, making it easier for beginners to learn hardware programming. Source: Page 35 of `document(2).pdf`."
+  },
+  {
+    "id": 77,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "Does a standard Arduino Uno have built-in network connectivity (WiFi/Ethernet) without additional shields?",
+    "options": [
+      {"key": "a", "text": "Yes, it has built-in WiFi."},
+      {"key": "b", "text": "Yes, it has built-in Ethernet."},
+      {"key": "c", "text": "No, it requires additional shields for network connectivity."},
+      {"key": "d", "text": "Yes, it has built-in Bluetooth."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "A standard Arduino Uno board does not come with built-in Ethernet or Wi-Fi capabilities. To connect an Arduino Uno to a network, an additional module or 'shield' (like an Ethernet shield or a Wi-Fi module) must be used. Source: Page 35 of `document(2).pdf`."
+  },
+  {
+    "id": 78,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "The Raspberry Pi 3 is described as:",
+    "options": [
+      {"key": "a", "text": "A simple microcontroller."},
+      {"key": "b", "text": "A Linux-based single-board computer capable of multi-tasking."},
+      {"key": "c", "text": "A low-power sensor node."},
+      {"key": "d", "text": "A dedicated real-time operating system device."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The Raspberry Pi 3 is a single-board computer. It runs a Linux-based operating system (like Raspberry Pi OS), has significantly more processing power and memory than an Arduino, and is capable of multi-tasking, much like a desktop computer. Source: Page 36 of `document(2).pdf`."
+  },
+  {
+    "id": 79,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "How much RAM does a Raspberry Pi 3 typically have?",
+    "options": [
+      {"key": "a", "text": "2kB"},
+      {"key": "b", "text": "256MB"},
+      {"key": "c", "text": "1GB"},
+      {"key": "d", "text": "4GB"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The Raspberry Pi 3 Model B and B+ are specified as having 1 Gigabyte (GB) of RAM, which is substantially more than microcontroller boards like the Arduino Uno. Source: Page 36 of `document(2).pdf`."
+  },
+  {
+    "id": 80,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "Which of these communication interfaces is NOT typically found on a Raspberry Pi 3?",
+    "options": [
+      {"key": "a", "text": "SPI"},
+      {"key": "b", "text": "I2C"},
+      {"key": "c", "text": "CAN bus (without add-ons)"},
+      {"key": "d", "text": "UART"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The Raspberry Pi 3 has built-in support for SPI, I2C, and UART communication via its GPIO pins. It also has Ethernet and Wi-Fi/Bluetooth. However, native CAN bus support is not a standard feature and typically requires an additional interface board (e.g., a CAN controller HAT). Source: Page 36 of `document(2).pdf`."
+  },
+  {
+    "id": 81,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "Compared to Raspberry Pi, Arduino is generally considered:",
+    "options": [
+      {"key": "a", "text": "Better for multimedia applications."},
+      {"key": "b", "text": "More complex to use for simple tasks."},
+      {"key": "c", "text": "Easier to use and more robust for simple, repetitive tasks and experimental conditions."},
+      {"key": "d", "text": "Having integrated web server capabilities by default."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The comparison slide highlights Arduino's strengths as being easier to use, better suited for simple, repetitive hardware control tasks, having more sensor input/output ports (including analog inputs which Raspberry Pi lacks natively), and being more robust in experimental conditions. Raspberry Pi is better for more complex tasks requiring an OS. Source: Page 37 of `document(2).pdf`."
+  },
+  {
+    "id": 82,
+    "section": "IoT Prototyping Platforms ",
+    "question_text": "For an IoT project requiring a full operating system, web server capabilities, and integrated WiFi/BTLE, which platform would be more suitable according to the slides?",
+    "options": [
+      {"key": "a", "text": "Arduino Uno"},
+      {"key": "b", "text": "Raspberry Pi 3"},
+      {"key": "c", "text": "A basic ATmega328 chip"},
+      {"key": "d", "text": "An FPGA board"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The Raspberry Pi 3 runs a full Linux OS, can easily host a web server, and has integrated Wi-Fi and Bluetooth Low Energy (BTLE). Arduino Uno lacks an OS, built-in networking (without shields), and the processing power for complex server tasks. Source: Page 36 & 37 of `document(2).pdf`."
+  },
+  {
+    "id": 83,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The concept of \"Smartdust\" as a future forecast implies:",
+    "options": [
+      {"key": "a", "text": "Large, powerful IoT gateways."},
+      {"key": "b", "text": "Fully autonomous (energy harvested), meshed interconnected networks connecting to WiFi hubs."},
+      {"key": "c", "text": "IoT devices primarily focused on air quality monitoring."},
+      {"key": "d", "text": "A new type of secure communication protocol."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "The forecast for 'smartdust' describes a scenario with tiny, fully autonomous sensor nodes that harvest their own energy. These nodes would form meshed, interconnected networks and connect to Wi-Fi hubs for broader communication, enabling ubiquitous sensing. Source: Page 32 of `document(2).pdf`."
+  },
+  {
+    "id": 84,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "What is the primary function of an \"actuator\" in an IoT system?",
+    "options": [
+      {"key": "a", "text": "To sense physical phenomena."},
+      {"key": "b", "text": "To process data locally."},
+      {"key": "c", "text": "To convert an electrical signal into a physical action (e.g., opening a valve, turning on a light)."},
+      {"key": "d", "text": "To transmit data to the cloud."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "In an IoT system, sensors gather information from the physical world. Actuators do the opposite: they take an electrical signal (often from a controller or computer) and convert it into a physical action or change in the environment, such as opening a valve, turning a motor, or switching on a light. Source: Page 26 of `document.pdf` (defines actuator as opposite of sensor) & Page 17 `document.pdf` (shows actuators in edge architecture)."
+  },
+  {
+    "id": 85,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The term \"6LoWPAN\" specifically refers to enabling IPv6 over:",
+    "options": [
+      {"key": "a", "text": "High-power Wide Area Networks."},
+      {"key": "b", "text": "Low-power Wireless Personal Area Networks."},
+      {"key": "c", "text": "Wired Ethernet networks."},
+      {"key": "d", "text": "Optical fiber communication."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "6LoWPAN stands for 'IPv6 over Low-power Wireless Personal Area Networks'. It's an adaptation layer that allows IPv6 packets to be transmitted over IEEE 802.15.4 based networks, which are typically low-power and operate in a personal area network range. Source: Page 15 of `document(2).pdf`."
+  },
+  {
+    "id": 86,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "If an IoT device sends small chunks of data infrequently and needs to preserve energy, Bluetooth 4.0 (BLE) achieves this by:",
+    "options": [
+      {"key": "a", "text": "Maintaining a constant high-bandwidth connection."},
+      {"key": "b", "text": "Sending data and then putting the connection to sleep during idle periods."},
+      {"key": "c", "text": "Using a very high transmission power to reduce connection time."},
+      {"key": "d", "text": "Requiring manual pairing for every data transmission."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Bluetooth Low Energy (BLE), part of Bluetooth 4.0, is designed for low power consumption. It achieves this by sending small chunks of data when necessary and then quickly putting the connection into a sleep mode during idle periods, significantly reducing energy use compared to maintaining an active connection. Source: Page 11 of `document(2).pdf`."
+  },
+  {
+    "id": 87,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The \"ZigBee IP\" release specifically aims to improve ZigBee by:",
+    "options": [
+      {"key": "a", "text": "Reducing its operational range."},
+      {"key": "b", "text": "Removing security features to save power."},
+      {"key": "c", "text": "Including IPv6 compatibility."},
+      {"key": "d", "text": "Focusing solely on star topology."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "ZigBee IP is an enhanced version of the ZigBee protocol that incorporates IPv6 (and 6LoWPAN) to allow ZigBee devices to be directly addressable on IP networks. This facilitates easier integration with the internet and other IP-based systems. Source: Page 13 & 15 of `document(2).pdf`."
+  },
+  {
+    "id": 88,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The \"LoRa PHY\" refers to:",
+    "options": [
+      {"key": "a", "text": "The application layer protocol for LoRa."},
+      {"key": "b", "text": "The physical layer modulation technique used by LoRa."},
+      {"key": "c", "text": "The network server software for LoRaWAN."},
+      {"key": "d", "text": "The encryption algorithm used in LoRa."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "PHY is a standard abbreviation for 'Physical Layer' in networking. LoRa PHY refers to the proprietary physical layer modulation technique ."
+  },
+  {
+    "id": 89,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "A key characteristic of Sigfox's business model mentioned is:",
+    "options": [
+      {"key": "a", "text": "Open-source hardware and free network access."},
+      {"key": "b", "text": "Subscription by monthly charges per IoT device."},
+      {"key": "c", "text": "One-time fee for lifetime network access."},
+      {"key": "d", "text": "Revenue generated through data analytics services only."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Sigfox operates as a network provider. Its business model involves charging a subscription fee, typically on a monthly basis, for each IoT device that connects to and uses its network for communication. Source: Page 25 of `document(2).pdf`."
+  },
+  {
+    "id": 90,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "Power reduction in chips due to \"Switching loss\" is proportional to:",
+    "options": [
+      {"key": "a", "text": "Voltage (V)"},
+      {"key": "b", "text": "Voltage squared (V^2)"},
+      {"key": "c", "text": "Current (I)"},
+      {"key": "d", "text": "Frequency (f)"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Switching loss in CMOS circuits occurs when transistors change state (switch from 0 to 1 or vice versa) and is a major component of dynamic power consumption. This power loss is proportional to the square of the supply voltage (V²), as well as frequency and capacitance. Source: Page 13 of `document(1).pdf`."
+  },
+  {
+    "id": 91,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "\"Leakage loss\" in chips is proportional to:",
+    "options": [
+      {"key": "a", "text": "Voltage (V)"},
+      {"key": "b", "text": "Voltage squared (V^2)"},
+      {"key": "c", "text": "Resistance (R)"},
+      {"key": "d", "text": "Capacitance (C)"}
+    ],
+    "correct_answer_letter": "a",
+    "explanation": "Leakage loss, also known as static power consumption, is the power consumed by a chip even when its transistors are not actively switching. This is due to leakage currents and is directly proportional to the supply voltage (V). Source: Page 13 of `document(1).pdf`."
+  },
+  {
+    "id": 92,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "Which energy harvesting principle is utilized when generating power from temperature differences (e.g., body heat vs. ambient)?",
+    "options": [
+      {"key": "a", "text": "Photovoltaic effect"},
+      {"key": "b", "text": "Piezoelectric effect"},
+      {"key": "c", "text": "Thermoelectric effect (e.g., Seebeck power generation)"},
+      {"key": "d", "text": "Electromagnetic induction"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "The thermoelectric effect describes the conversion of temperature differences directly into electricity (or vice versa). The Seebeck effect, a specific thermoelectric phenomenon, is used in thermoelectric generators (TEGs) to produce voltage when there's a temperature gradient across suitable materials. This is applicable for harvesting energy from sources like body heat or industrial waste heat. Source: Page 21 of `document(1).pdf`."
+  },
+  {
+    "id": 93,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "For an IoT application requiring direct internet addressability for each end device and scalability for a massive number of devices, which IP version is more suitable?",
+    "options": [
+      {"key": "a", "text": "IPv4 due to its simplicity."},
+      {"key": "b", "text": "IPv6 due to its larger address space."},
+      {"key": "c", "text": "Proprietary non-IP addressing."},
+      {"key": "d", "text": "MAC addressing only."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "IPv6 offers a vastly larger address space (128-bit addresses) compared to IPv4 (32-bit addresses). This massive address pool is crucial for the Internet of Things, which envisions billions of connected devices, each potentially requiring a unique IP address for direct internet addressability and global scalability. Source: Page 8 of `document(2).pdf`."
+  },
+  {
+    "id": 94,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The term \"WNAN\" in the context of IoT wireless networks stands for:",
+    "options": [
+      {"key": "a", "text": "Wireless Narrowband Area Network"},
+      {"key": "b", "text": "Wireless Neighborhood Area Network"},
+      {"key": "c", "text": "Wideband Nano Area Network"},
+      {"key": "d", "text": "Wired Network Access Node"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "WNAN is used in the classification of wireless networks by range. It stands for Wireless Neighborhood Area Network, covering a medium range (typically up to 5-10 km), larger than a WLAN but smaller than a WWAN. Source: Page 4 of `document(2).pdf` & Page 17 of `document(1).pdf`."
+  },
+  {
+    "id": 95,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "Which of these is NOT a typical component of the \"Power budget\" consideration for an IoT system?",
+    "options": [
+      {"key": "a", "text": "Project power consumption (drain and frequency of tasks)"},
+      {"key": "b", "text": "Energy sources (battery, harvesting)"},
+      {"key": "c", "text": "Energy storage (capacitors, batteries)"},
+      {"key": "d", "text": "User interface design complexity"}
+    ],
+    "correct_answer_letter": "d",
+    "explanation": "A power budget analysis involves quantifying the power consumption of all components and tasks, evaluating available energy sources (batteries, harvesting), and determining energy storage needs (capacitors, batteries). While user interface (UX) design is important for the overall product, its design complexity is not a direct numerical component of the electrical power budget itself, though UX choices can influence power consumption (e.g., screen on-time). Source: Page 25 of `document(1).pdf` (diagram and text)."
+  },
+  {
+    "id": 96,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The use of \"duty cycling\" in IoT power management primarily aims to:",
+    "options": [
+      {"key": "a", "text": "Increase the processing speed of the device."},
+      {"key": "b", "text": "Turn components completely off or into low-power states when not actively needed."},
+      {"key": "c", "text": "Improve the wireless signal strength."},
+      {"key": "d", "text": "Enhance the security of data transmission."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Duty cycling is a power-saving technique where components or the entire device are kept active only for the minimum time necessary to perform a task and then put into a low-power sleep mode or turned off completely during idle periods. This significantly reduces average power consumption, especially for devices with intermittent activity. Source: Page 13 & 14 of `document(1).pdf`."
+  },
+  {
+    "id": 97,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "In the context of sensor measurements, if multiple readings of a constant physical quantity are widely scattered but their average is very close to the true value, the sensor has:",
+    "options": [
+      {"key": "a", "text": "High precision, high trueness"},
+      {"key": "b", "text": "Low precision, high trueness"},
+      {"key": "c", "text": "High precision, low trueness"},
+      {"key": "d", "text": "Low precision, low trueness"}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Precision refers to the closeness of repeated measurements to each other. Wide scattering indicates low precision. Trueness (accuracy) refers to the closeness of the average of measurements to the true value. If the average is very close to the true value despite the scatter, the sensor has high trueness. Source: Concept from Page 33 of `document.pdf`."
+  },
+  {
+    "id": 98,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The choice between Arduino and Raspberry Pi for an IoT project often depends on whether the application requires:",
+    "options": [
+      {"key": "a", "text": "Only analog sensor inputs (favoring Raspberry Pi)."},
+      {"key": "b", "text": "A full operating system and complex software (favoring Raspberry Pi)."},
+      {"key": "c", "text": "The lowest possible power consumption in all scenarios (favoring Raspberry Pi)."},
+      {"key": "d", "text": "The simplest possible hardware setup for blinking an LED (favoring Raspberry Pi)."}
+    ],
+    "correct_answer_letter": "b",
+    "explanation": "Raspberry Pi is a single-board computer that runs a full operating system (Linux), making it suitable for complex software applications, multitasking, and tasks requiring significant processing power or network services (like a web server). Arduino is a microcontroller better suited for simpler, real-time hardware control. Raspberry Pi lacks native analog inputs, and Arduinos are often simpler for basic hardware tasks. Source: Page 37 of `document(2).pdf`."
+  },
+  {
+    "id": 99,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "Which technology is designed for very short-range (centimeters) two-way communication, often used for payments or data exchange by tapping devices?",
+    "options": [
+      {"key": "a", "text": "LoRa"},
+      {"key": "b", "text": "Sigfox"},
+      {"key": "c", "text": "NFC"},
+      {"key": "d", "text": "WiFi HaLow"}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "NFC (Near Field Communication) operates at a very short range, typically a few centimeters (max 10cm mentioned). It supports two-way communication and is commonly used for contactless payments, access control, and quick data exchange between devices when they are tapped or brought very close together. Source: Page 5 of `document(2).pdf`."
+  },
+  {
+    "id": 100,
+    "section": "Mixed Concepts & Advanced Topics ",
+    "question_text": "The primary motivation for developing Low Power Wide Area Networks (LPWANs) was to address the need for IoT applications that require:",
+    "options": [
+      {"key": "a", "text": "High-definition video streaming over long distances."},
+      {"key": "b", "text": "Very low latency for real-time control."},
+      {"key": "c", "text": "Long battery life, wide coverage, and support for a massive number of low-throughput devices."},
+      {"key": "d", "text": "Extremely high security for financial transactions."}
+    ],
+    "correct_answer_letter": "c",
+    "explanation": "LPWANs are specifically designed for IoT applications where devices need to operate for years on a single battery (low power), communicate over long distances (wide area coverage), and where a large number of devices send small amounts of data infrequently (low throughput). Options like high-definition video or very low latency are typically not the primary design goals for LPWANs. Source: Page 18 of `document(2).pdf`."
+  }
+]
